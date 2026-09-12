@@ -1,0 +1,115 @@
+(footprint "Tachometer Inductor Connector"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.045 0)
+		(layer "F.SilkS")
+		(uuid "46a62be1-9c3e-4ed4-b7dd-bf98c4b10692")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Tachometer Inductor Connector"
+		(at 0 5.045 0)
+		(layer "F.Fab")
+		(uuid "87a54bb3-a70a-4aed-8f6a-eb301d778f27")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "18c7238b-544a-4fb7-8002-a7afba725e8d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ac4318fd-362d-41c3-b3a4-f3653cebff67")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 4.12)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "d2521a3a-5156-4ec4-a1ab-13c689c1d981")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 4.37)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "0d86c556-b68d-4ce1-bd88-bda03fdcddf2")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ecef806e-3633-45d1-b774-5a062648e948")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "54bc6e5c-69e9-4cf2-a512-4b2320de6d06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 -2)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "664e7844-bd6a-41f6-bc98-11824ff61069")
+	)
+	(pad "2" thru_hole oval
+		(at 0 2)
+		(size 3 3)
+		(drill 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "56386651-acf6-4a9f-ae81-cbd5564cb4af")
+	)
+	(embedded_fonts no)
+)
