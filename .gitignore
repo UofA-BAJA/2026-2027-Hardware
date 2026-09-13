@@ -1,0 +1,26 @@
+
+# Temporary and Autosave files
+*.000
+*.bak
+*.bck
+*.tmp
+*~
+_autosave-*
+fp-info-cache
+*.lock
+
+# KiCad Backups (Schematics and PCBs)
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups/
+archives/
+
+# Local Project History & User Settings
+# (.history is used in KiCad 9.0+)
+.history/
+*.kicad_prl
+
+# Exported files (uncomment if you want to track them)
+# *.net
+# *.xml
+# *.csv
