@@ -1,0 +1,8 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Adafruit_CAN_BFF") (type "KiCad") (uri "C:/Users/Adam/Documents/Sync/1. School/Baja/2026-2027-Hardware/Shared Elements/Adafruit_CAN_BFF") (options "") (descr ""))
+	(lib (name "Baja Logo for PCB") (type "KiCad") (uri "C:/Users/Adam/Documents/Sync/1. School/Baja/2026-2027-Hardware/Shared Elements/Baja Logo for PCB") (options "") (descr ""))
+	(lib (name "Adafruit Dual Alphanumeric LED") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Adafruit Dual Alphanumeric LED") (options "") (descr ""))
+	(lib (name "Adafruit HT16K33 Breakout") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Adafruit HT16K33 Breakout") (options "") (descr ""))
+	(lib (name "arduino-library") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Arduino Nano/arduino-library.kicad_sym") (options "") (descr ""))
+)
