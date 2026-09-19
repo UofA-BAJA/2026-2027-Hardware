@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "10.0")
 	(uuid "153c62c5-928c-4635-9eaf-5f6964fb3ab6")
-	(paper "A2")
+	(paper "A4")
 	(lib_symbols
 		(symbol "Adafruit_CAN_BFF:Adafruit-CAN-BFF-SMD"
 			(pin_names
@@ -336,7 +336,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Pin"
+		(symbol "Connector:Conn_01x03_Socket"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -347,7 +347,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 2.54 0)
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -356,7 +356,7 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02_Pin"
+			(property "Value" "Conn_01x03_Socket"
 				(at 0 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -388,7 +388,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
+			(property "Description" "Generic connector, single row, 01x03, script generated"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -431,32 +431,10 @@
 					)
 				)
 			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
+			(symbol "Conn_01x03_Socket_1_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 0.8636 0)
+						(xy -1.27 2.54) (xy -0.508 2.54)
 					)
 					(stroke
 						(width 0.1524)
@@ -468,8 +446,56 @@
 				)
 				(polyline
 					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+						(xy -1.27 0) (xy -0.508 0)
 					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 2.032)
+					(mid -0.5058 2.54)
+					(end 0 3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -0.508)
+					(mid -0.5058 0)
+					(end 0 0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -3.048)
+					(mid -0.5058 -2.54)
+					(end 0 -2.032)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -479,7 +505,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -497,7 +523,7 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -2.54 180)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -510,6 +536,369 @@
 						(effects
 							(font
 								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "DTF13-6P:DTF13-6P"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -5.08 8.128 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "DTF13-6P"
+				(at -5.08 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "DTF13-6P:TE_DTF13-6P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Connector, 6-Way, Black, Polyamide, DT Series | TE Connectivity DTF13-6P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Comment" "DTF13-6P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "TE Connectivity"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "22.35mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/DTF13-6P/TE+Connectivity+Deutsch+Connectors/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/DTF13-6P/TE+Connectivity+Deutsch+Connectors/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "DTF13-6P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "EU_RoHS_Compliance" "Compliant with Exemptions"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "TE Connectivity"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "DTF13-6P_0_0"
+				(rectangle
+					(start -5.08 -10.16)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -1356,132 +1745,132 @@
 		)
 	)
 	(no_connect
-		(at 76.2 85.09)
+		(at 30.48 74.93)
 		(uuid "0144560e-2182-49ea-8cdd-61a8d94837e0")
 	)
 	(no_connect
-		(at 76.2 77.47)
+		(at 30.48 67.31)
 		(uuid "0e7616e7-53ac-46a0-aad9-687a44c7cb43")
 	)
 	(no_connect
-		(at 127 72.39)
+		(at 81.28 62.23)
 		(uuid "166c4ff4-f0c9-4a84-8a26-46002ce4b487")
 	)
 	(no_connect
-		(at 127 77.47)
+		(at 81.28 67.31)
 		(uuid "22647c79-e2aa-497f-83da-dd50ec65ac51")
 	)
 	(no_connect
-		(at 215.9 73.66)
+		(at 120.65 66.04)
 		(uuid "28437187-a924-4225-9691-e326c734f15a")
 	)
 	(no_connect
-		(at 215.9 81.28)
+		(at 120.65 73.66)
 		(uuid "2fdfc985-d150-4946-bbfa-933486003c11")
 	)
 	(no_connect
-		(at 127 67.31)
+		(at 81.28 57.15)
 		(uuid "3850516b-5752-42ac-b99f-e2b29f05b1aa")
 	)
 	(no_connect
-		(at 127 74.93)
+		(at 81.28 64.77)
 		(uuid "48cca88d-adf8-4af3-bd1a-b5cc20b8fdbf")
 	)
 	(no_connect
-		(at 76.2 49.53)
+		(at 30.48 39.37)
 		(uuid "4bdc22ce-6cea-4e36-85b0-d4e96a84dc65")
 	)
 	(no_connect
-		(at 215.9 85.09)
+		(at 120.65 77.47)
 		(uuid "4def6a54-6d2c-4c4a-a6ea-d8cd0e0b166c")
 	)
 	(no_connect
-		(at 215.9 88.9)
+		(at 120.65 81.28)
 		(uuid "51c327b9-27d4-4fbc-a375-56c9a1ac2e07")
 	)
 	(no_connect
-		(at 127 52.07)
+		(at 81.28 41.91)
 		(uuid "55dc6be3-a1cf-4020-9f5e-f90038e4611f")
 	)
 	(no_connect
-		(at 76.2 80.01)
+		(at 30.48 69.85)
 		(uuid "57eea804-3c4e-4e4e-a86d-31c27859546a")
 	)
 	(no_connect
-		(at 76.2 74.93)
+		(at 30.48 64.77)
 		(uuid "668e0df6-7193-467e-bb44-1aeda85ed8c1")
 	)
 	(no_connect
-		(at 127 90.17)
+		(at 81.28 80.01)
 		(uuid "69db72db-2a9c-47dd-a3ea-cfe21e58c88b")
 	)
 	(no_connect
-		(at 127 92.71)
+		(at 81.28 82.55)
 		(uuid "726bf791-0d0b-436c-b411-59441b38edf9")
 	)
 	(no_connect
-		(at 76.2 72.39)
+		(at 30.48 62.23)
 		(uuid "7c71b79f-7a24-4642-a5bd-ee6bd98989f8")
 	)
 	(no_connect
-		(at 127 49.53)
+		(at 81.28 39.37)
 		(uuid "8bef33a3-97ef-459c-920a-1198ec1b182f")
 	)
 	(no_connect
-		(at 76.2 52.07)
+		(at 30.48 41.91)
 		(uuid "95891186-8099-4832-8761-7297f650ee17")
 	)
 	(no_connect
-		(at 259.08 73.66)
+		(at 163.83 66.04)
 		(uuid "95ed89db-66f7-43f7-9de7-c7d2493098c1")
 	)
 	(no_connect
-		(at 127 64.77)
+		(at 81.28 54.61)
 		(uuid "9b03cfce-db06-4bb7-a17e-588fea227ec0")
 	)
 	(no_connect
-		(at 76.2 95.25)
+		(at 30.48 85.09)
 		(uuid "9d24b2d0-427d-4db6-ac8f-603c95db7749")
 	)
 	(no_connect
-		(at 127 62.23)
+		(at 81.28 52.07)
 		(uuid "9ed7455f-65f1-4df2-9c9b-d2580d03df72")
 	)
 	(no_connect
-		(at 76.2 69.85)
+		(at 30.48 59.69)
 		(uuid "b4597c59-3944-4ddc-a8e4-6be58b312fc5")
 	)
 	(no_connect
-		(at 76.2 90.17)
+		(at 30.48 80.01)
 		(uuid "c1c6c25c-d6e1-4204-9b26-9991340b5c85")
 	)
 	(no_connect
-		(at 76.2 59.69)
+		(at 30.48 49.53)
 		(uuid "c30e2668-234e-42e6-9240-e562de0aca20")
 	)
 	(no_connect
-		(at 259.08 88.9)
+		(at 163.83 81.28)
 		(uuid "d8cb2a3e-72bb-4232-a78a-58f268aafde9")
 	)
 	(no_connect
-		(at 76.2 62.23)
+		(at 30.48 52.07)
 		(uuid "d9b0a34b-28a8-44e4-86cd-6546eb50bda0")
 	)
 	(no_connect
-		(at 215.9 69.85)
+		(at 120.65 62.23)
 		(uuid "dba243e1-d59c-4009-823b-9537873d3149")
 	)
 	(no_connect
-		(at 127 69.85)
+		(at 81.28 59.69)
 		(uuid "f2fc6bdb-7e3c-4b02-97e6-090a465c2817")
 	)
 	(no_connect
-		(at 127 54.61)
+		(at 81.28 44.45)
 		(uuid "f5fee886-4d6c-4c20-a005-2d4dfa1be540")
 	)
 	(global_label "SERVO_SPEED"
 		(shape input)
-		(at 127 59.69 0)
+		(at 81.28 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1491,7 +1880,7 @@
 		)
 		(uuid "050a403c-d363-4808-83ce-5da757c3b3f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.0479 59.69 0)
+			(at 97.3279 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1505,7 +1894,7 @@
 	)
 	(global_label "CAN_CS"
 		(shape input)
-		(at 215.9 77.47 180)
+		(at 120.65 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1515,7 +1904,7 @@
 		)
 		(uuid "0f7e370a-ef27-4f57-80ce-e731a47cb04a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.7786 77.47 0)
+			(at 110.5286 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1529,7 +1918,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 76.2 92.71 180)
+		(at 30.48 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1539,7 +1928,55 @@
 		)
 		(uuid "113ee11f-5340-45c5-a6b0-57538498adc2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.3443 92.71 0)
+			(at 23.6243 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CAN_OUTPUT_H"
+		(shape input)
+		(at 140.97 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b69513a-e6c3-4ad3-9b4d-10bc2372bb88")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 123.8333 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SERVO_SPEED"
+		(shape input)
+		(at 232.41 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "40fd2ac2-39c3-4a9b-b263-f9092a2cc5a4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 216.3621 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1553,31 +1990,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 168.91 66.04 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "22841bc4-31a2-4fb3-b112-afc1476c26d0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.7657 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape input)
-		(at 259.08 69.85 0)
+		(at 163.83 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1587,7 +2000,7 @@
 		)
 		(uuid "48bc24c9-c70c-4e4b-99fa-9590a889f2bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.9357 69.85 0)
+			(at 170.6857 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1601,7 +2014,7 @@
 	)
 	(global_label "SPI_SCK"
 		(shape input)
-		(at 259.08 85.09 0)
+		(at 163.83 77.47 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1611,7 +2024,7 @@
 		)
 		(uuid "4f4a0603-a4f5-44fd-b5b6-b56cc0e36f49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 269.8666 85.09 0)
+			(at 174.6166 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1623,9 +2036,33 @@
 			)
 		)
 	)
+	(global_label "CAN_OUTPUT_L"
+		(shape input)
+		(at 133.35 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "57081466-5da1-4004-9eb1-4b66c97ee010")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.5157 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "+5V"
 		(shape input)
-		(at 76.2 87.63 180)
+		(at 30.48 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1635,7 +2072,79 @@
 		)
 		(uuid "5bc63cc0-cee9-4306-aa59-6dff48946a21")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.3443 87.63 0)
+			(at 23.6243 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CAN_OUTPUT_H"
+		(shape input)
+		(at 133.35 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "70c6c54b-a96e-44c7-82d0-7ac7802badad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.2133 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CAN_OUTPUT_L"
+		(shape input)
+		(at 133.35 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "72fda192-bc85-49a7-9e2b-478cf01f786b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.5157 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 232.41 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "74c4a919-e33b-40dc-b9d5-d26ef3f81e9a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.5543 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1649,7 +2158,7 @@
 	)
 	(global_label "I2C_SCL"
 		(shape input)
-		(at 76.2 64.77 180)
+		(at 30.48 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1659,7 +2168,55 @@
 		)
 		(uuid "7e137389-181d-444c-9094-def3addc67fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.6553 64.77 0)
+			(at 19.9353 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "SERVO_TACH"
+		(shape input)
+		(at 232.41 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81d4726a-b699-41c3-a6ad-429d95ed8a9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.7529 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CAN_OUTPUT_H"
+		(shape input)
+		(at 133.35 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90e48c97-13ba-4894-8afb-e115ca6c5007")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 116.2133 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1673,17 +2230,17 @@
 	)
 	(global_label "+5V"
 		(shape input)
-		(at 168.91 63.5 0)
+		(at 232.41 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "86259f6d-6f5c-45a6-ba40-3e050c203419")
+		(uuid "96f612e8-0abf-4f09-a2cb-ea59f994980b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.7657 63.5 0)
+			(at 225.5543 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1691,13 +2248,13 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 	)
 	(global_label "CAN_INT"
 		(shape input)
-		(at 215.9 66.04 180)
+		(at 120.65 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1707,7 +2264,7 @@
 		)
 		(uuid "97f696bd-ae4b-4377-b611-e29123ead77c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 205.3552 66.04 0)
+			(at 110.1052 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1721,7 +2278,7 @@
 	)
 	(global_label "SPI_SI"
 		(shape input)
-		(at 259.08 77.47 0)
+		(at 163.83 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1731,7 +2288,7 @@
 		)
 		(uuid "98b9ab87-e0fe-419c-a195-db124b067733")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 267.9314 77.47 0)
+			(at 172.6814 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1743,9 +2300,57 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 232.41 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a2112c43-cb7c-4a2c-a525-5bf5b57cbaf4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.5543 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 133.35 106.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3778f75-4eea-4682-8b4a-ca42f5e69ab3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.4943 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SERVO_TACH"
 		(shape input)
-		(at 127 57.15 0)
+		(at 81.28 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1755,7 +2360,7 @@
 		)
 		(uuid "c8a8e7fe-f7c6-4d31-afae-3fb22b64cdc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.6571 57.15 0)
+			(at 95.9371 46.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1769,7 +2374,31 @@
 	)
 	(global_label "+5V"
 		(shape input)
-		(at 259.08 66.04 0)
+		(at 232.41 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd7cb2df-d264-470e-8673-b8bc9eb89667")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 225.5543 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "+5V"
+		(shape input)
+		(at 163.83 58.42 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1779,7 +2408,7 @@
 		)
 		(uuid "d66c581b-4fba-4e14-93a2-59aa666d6bb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.9357 66.04 0)
+			(at 170.6857 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1793,7 +2422,7 @@
 	)
 	(global_label "SPI_SO"
 		(shape input)
-		(at 259.08 81.28 0)
+		(at 163.83 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1803,7 +2432,7 @@
 		)
 		(uuid "db4247d7-75fc-4c6c-873b-1b8f1a6e9251")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 268.6571 81.28 0)
+			(at 173.4071 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1815,9 +2444,33 @@
 			)
 		)
 	)
+	(global_label "+5V"
+		(shape input)
+		(at 133.35 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db62b2e7-04c4-437c-8f00-bec2564dc8e9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 126.4943 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "I2C_SDA"
 		(shape input)
-		(at 76.2 67.31 180)
+		(at 30.48 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1827,7 +2480,55 @@
 		)
 		(uuid "e2f79b92-7a59-4359-83c6-eced225b2686")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.5948 67.31 0)
+			(at 19.8748 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 140.97 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e548c14d-349d-4ee6-baa8-6ddd99138917")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 134.1143 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "CAN_OUTPUT_L"
+		(shape input)
+		(at 140.97 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee73e5c9-3570-48e0-a607-57fc9c918b21")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 124.1357 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1840,8 +2541,345 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 237.49 69.85 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "06641768-9d80-4408-989b-89cf0734d1ae")
+		(property "Reference" "J4"
+			(at 238.76 68.5799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 238.76 71.1199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 237.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 237.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 237.49 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "78b1e9df-a6da-4765-a836-42850eda8b0c")
+		)
+		(pin "1"
+			(uuid "e61a3264-0f55-4f5e-8ace-9710dd8d959f")
+		)
+		(pin "3"
+			(uuid "c9b1f2f1-41be-426f-8fa2-245f0263eea0")
+		)
+		(instances
+			(project "Dashboard"
+				(path "/153c62c5-928c-4635-9eaf-5f6964fb3ab6"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DTF13-6P:DTF13-6P")
+		(at 143.51 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "099d59e5-55ae-4c4f-85f5-8f52182287d5")
+		(property "Reference" "J1"
+			(at 149.6787 111.7599 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DTF13-6P"
+			(at 149.6787 114.2999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DTF13-6P:TE_DTF13-6P"
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector, 6-Way, Black, Polyamide, DT Series | TE Connectivity DTF13-6P"
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Comment" "DTF13-6P"
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "22.35mm"
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DTF13-6P/TE+Connectivity+Deutsch+Connectors/view-part/?ref=eda"
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DTF13-6P/TE+Connectivity+Deutsch+Connectors/view-part/?ref=snap"
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "DTF13-6P"
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "EU_RoHS_Compliance" "Compliant with Exemptions"
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 143.51 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "4"
+			(uuid "29159eba-f9a8-4551-9830-da9f1ce7d870")
+		)
+		(pin "1"
+			(uuid "533048be-4872-4f60-858a-9e7990dde60c")
+		)
+		(pin "3"
+			(uuid "bd031dbd-69f8-4c99-a543-f5cb20cd5c86")
+		)
+		(pin "6"
+			(uuid "220afbc4-f7c3-4cae-9415-6e09ee97f23b")
+		)
+		(pin "2"
+			(uuid "9fda4d30-af78-489e-9e16-7ada42c95b01")
+		)
+		(pin "5"
+			(uuid "58e097dc-37b0-4110-95f2-897d47c8ae3b")
+		)
+		(instances
+			(project "Dashboard"
+				(path "/153c62c5-928c-4635-9eaf-5f6964fb3ab6"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit_CAN_BFF:Adafruit-CAN-BFF-SMD")
-		(at 237.49 77.47 0)
+		(at 142.24 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1852,7 +2890,7 @@
 		(fields_autoplaced yes)
 		(uuid "48ebb0d2-f9ca-46b2-9ec4-111399b1347d")
 		(property "Reference" "U2"
-			(at 237.49 52.07 0)
+			(at 142.24 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1862,7 +2900,7 @@
 			)
 		)
 		(property "Value" "Adafruit-CAN-BFF-SMD"
-			(at 237.49 54.61 0)
+			(at 142.24 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1872,7 +2910,7 @@
 			)
 		)
 		(property "Footprint" "Adafruit_CAN_BFF:Adafruit-CAN-BFF-SMD"
-			(at 233.426 52.07 0)
+			(at 138.176 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1883,7 +2921,7 @@
 			)
 		)
 		(property "Datasheet" "https://learn.adafruit.com/adafruit-can-bus-bff"
-			(at 237.49 49.784 0)
+			(at 142.24 42.164 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1894,7 +2932,7 @@
 			)
 		)
 		(property "Description" "Adafruit CAN Bus BFF Add-On for QT Py / XIAO (MCP25625, SPI, CS=A3) - SMD"
-			(at 240.284 48.006 0)
+			(at 145.034 40.386 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1956,8 +2994,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 163.83 63.5 0)
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 237.49 60.96 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1966,29 +3004,31 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "57599fa2-1a57-478b-b832-c0b4e42521d7")
-		(property "Reference" "J1"
-			(at 164.465 58.42 0)
+		(uuid "987fb2b7-dc1c-4fc9-b033-e8514a901207")
+		(property "Reference" "J3"
+			(at 238.76 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 164.465 60.96 0)
+		(property "Value" "Conn_01x03_Socket"
+			(at 238.76 62.2299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical"
-			(at 163.83 63.5 0)
+		(property "Footprint" ""
+			(at 237.49 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1999,7 +3039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 63.5 0)
+			(at 237.49 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2009,8 +3049,8 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 163.83 63.5 0)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 237.49 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2019,17 +3059,102 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "a808070a-3f96-44ab-a399-5c0481557e3d")
 		)
 		(pin "2"
-			(uuid "c841527a-e9fc-4079-9302-939fb400cfdf")
+			(uuid "a74b9047-b595-4a1e-a060-37c92c151e8a")
+		)
+		(pin "1"
+			(uuid "bb90b297-228f-4f9e-a883-88932a8d310c")
+		)
+		(pin "3"
+			(uuid "a470a009-cfa6-4c9a-93ca-80102f4b6a7f")
 		)
 		(instances
 			(project "Dashboard"
 				(path "/153c62c5-928c-4635-9eaf-5f6964fb3ab6"
-					(reference "J1")
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 146.05 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bf3d6f4d-0a73-463b-a5a2-d45bd3d894cc")
+		(property "Reference" "J2"
+			(at 155.956 97.536 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 155.956 94.996 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 146.05 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "eb787ab0-b2c5-4558-b32e-160780ac2b9a")
+		)
+		(pin "2"
+			(uuid "04db9797-0fb2-4738-a327-60720c52afa7")
+		)
+		(pin "1"
+			(uuid "3df63ce6-5c53-478c-a290-fc7d97c89321")
+		)
+		(instances
+			(project "Dashboard"
+				(path "/153c62c5-928c-4635-9eaf-5f6964fb3ab6"
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -2037,7 +3162,7 @@
 	)
 	(symbol
 		(lib_id "arduino-library:Arduino_Nano_Socket")
-		(at 101.6 72.39 0)
+		(at 55.88 62.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2048,7 +3173,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4143cd2-9f42-4a71-b0ae-919fac15f39a")
 		(property "Reference" "A1"
-			(at 101.6 40.64 0)
+			(at 55.88 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2058,7 +3183,7 @@
 			)
 		)
 		(property "Value" "Arduino_Nano_Socket"
-			(at 101.6 43.18 0)
+			(at 55.88 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2068,7 +3193,7 @@
 			)
 		)
 		(property "Footprint" "Arduino Nano:Arduino_Nano_Socket"
-			(at 101.6 106.68 0)
+			(at 55.88 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2079,7 +3204,7 @@
 			)
 		)
 		(property "Datasheet" "https://docs.arduino.cc/hardware/nano"
-			(at 101.6 102.87 0)
+			(at 55.88 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2090,7 +3215,7 @@
 			)
 		)
 		(property "Description" "Socket for Arduino Nano"
-			(at 101.6 72.39 0)
+			(at 55.88 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
