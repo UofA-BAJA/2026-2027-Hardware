@@ -6,4 +6,5 @@
 	(lib (name "Adafruit HT16K33 Breakout") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Adafruit HT16K33 Breakout") (options "") (descr ""))
 	(lib (name "arduino-library") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Arduino Nano/arduino-library.kicad_sym") (options "") (descr ""))
 	(lib (name "DTF13-6P") (type "KiCad") (uri "/home/adam/Documents/Sync/1. School/Baja/2026-2027-Hardware/Shared Elements/DTF13-6P/DTF13-6P.kicad_sym") (options "") (descr ""))
+	(lib (name "Adafruit_1912") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Test Alphanumeric LED Backpack/Adafruit_1912.kicad_sym") (options "") (descr ""))
 )

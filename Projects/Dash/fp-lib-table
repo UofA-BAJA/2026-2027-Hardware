@@ -3,4 +3,5 @@
 	(lib (name "Arduino Nano") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Arduino Nano") (options "") (descr ""))
 	(lib (name "Adafruit_CAN_BFF") (type "KiCad") (uri "/home/adam/Documents/Sync/1. School/Baja/2026-2027-Hardware/Shared Elements/Adafruit_CAN_BFF") (options "") (descr ""))
 	(lib (name "DTF13-6P") (type "KiCad") (uri "/home/adam/Documents/Sync/1. School/Baja/2026-2027-Hardware/Shared Elements/DTF13-6P") (options "") (descr ""))
+	(lib (name "Test Alphanumeric LED Backpack") (type "KiCad") (uri "${KIPRJMOD}/Libraries/Test Alphanumeric LED Backpack") (options "") (descr ""))
 )
