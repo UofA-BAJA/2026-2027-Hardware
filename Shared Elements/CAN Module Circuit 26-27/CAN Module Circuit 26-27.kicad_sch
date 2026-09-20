@@ -5137,7 +5137,7 @@
 	)
 	(symbol
 		(lib_id "CAN Integration-altium-import:VCC_BAR")
-		(at 149.86 106.68 180)
+		(at 149.86 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5158,7 +5158,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 149.86 102.87 0)
+			(at 153.67 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5241,7 +5241,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
 			(at 99.314 92.964 90)
 			(hide yes)
 			(show_name no)
