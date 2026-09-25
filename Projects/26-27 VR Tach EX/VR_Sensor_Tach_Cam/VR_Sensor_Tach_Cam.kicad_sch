@@ -5367,7 +5367,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "GND"
 			(at 147.32 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -6223,7 +6223,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "GND"
 			(at 33.02 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -6391,7 +6391,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MAX9924UAUB_:SOP50P490X110-10N"
+		(property "Footprint" "MAX9924UAUB_ (1):SOP50P490X110-10N"
 			(at 85.09 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6572,7 +6572,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "GND"
 			(at 41.91 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -6651,7 +6651,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "GND"
 			(at 114.3 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -6730,7 +6730,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "GND"
 			(at 160.02 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -7174,7 +7174,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 113.792 53.34 90)
 			(hide yes)
 			(show_name no)
@@ -7255,7 +7255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm"
+		(property "Footprint" "MAX9924UAUB_ (1):VR Sensor"
 			(at 24.13 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7504,7 +7504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 53.0352 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8280,7 +8280,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "GND"
 			(at 107.95 179.07 0)
 			(hide yes)
 			(show_name no)
@@ -8643,7 +8643,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 43.18 51.308 90)
 			(hide yes)
 			(show_name no)
@@ -8797,7 +8797,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 57.404 156.464 90)
 			(hide yes)
 			(show_name no)
@@ -9129,7 +9129,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
 			(at 43.18 61.468 90)
 			(hide yes)
 			(show_name no)
