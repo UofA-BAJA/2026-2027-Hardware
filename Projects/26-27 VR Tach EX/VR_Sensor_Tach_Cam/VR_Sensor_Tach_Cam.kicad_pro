@@ -661,7 +661,7 @@
         "uuid": "4612bc91-ba01-4db2-94bf-b5e69a49e9c3"
       }
     ],
-    "used_designators": "U1-3,R1-3,#GND1,#GND13,#GND15-18,VR Sensor1,C1-6,#PWR1-10,#PWR101-103,#PWR108,#PWR112,#PWR115,A1,X1,J1,R_pullup1",
+    "used_designators": "U1-3,VR Sensor1,R1-3,#GND1,#GND13,#GND15-18,C1-6,#PWR1-10,#PWR101-103,#PWR108,#PWR112,#PWR115,A1,X1,J1,R_pullup1",
     "variants": []
   },
   "sheets": [

@@ -12,7 +12,7 @@ Software Lead - Karsten Yin
 
 #### Projects:
 
-Tachometer -
+Tachometer - Cameron Schuetz
 
 Speedometer -
 
