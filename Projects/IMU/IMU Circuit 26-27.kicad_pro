@@ -489,7 +489,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "CAN Module Circuit 26-27.kicad_pro",
+    "filename": "IMU Circuit 26-27.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -656,8 +656,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "CAN Module Circuit 26-27.kicad_sch",
-        "name": "CAN Module Circuit 26-27",
+        "filename": "IMU Circuit 26-27.kicad_sch",
+        "name": "IMU Circuit 26-27",
         "uuid": "d185ddb1-e4c7-4aec-9e87-37dceb424272"
       }
     ],
