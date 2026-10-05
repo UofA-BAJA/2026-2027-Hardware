@@ -60,16 +60,37 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.35,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
-          "pad_connection": 1,
-          "remove_islands": 0,
+          "min_thickness": 0.5,
+          "pad_connection": 2,
+          "remove_islands": 2,
           "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        },
+        {
+          "gap": 0.5,
+          "via_gap": 1.0,
+          "width": 0.3
+        },
+        {
+          "gap": 0.5,
+          "via_gap": 1.0,
+          "width": 0.5
+        },
+        {
+          "gap": 0.5,
+          "via_gap": 1.0,
+          "width": 0.7
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -203,7 +224,12 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.3,
+        0.5,
+        0.7
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +256,24 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.7,
+          "drill": 0.3
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -661,13 +704,13 @@
         "uuid": "d185ddb1-e4c7-4aec-9e87-37dceb424272"
       }
     ],
-    "used_designators": "U3,A1,#GND19-22,#PWR104,#PWR113-114,#PWR116,C6-7",
+    "used_designators": "U3,A1,J1,#GND19-23,#PWR104-105,#PWR113-114,#PWR116,C6-7,H1-4,#SYM1,Logo1",
     "variants": []
   },
   "sheets": [
     [
       "d185ddb1-e4c7-4aec-9e87-37dceb424272",
-      "CAN Module Circuit 26-27"
+      "IMU Circuit 26-27"
     ]
   ],
   "text_variables": {},

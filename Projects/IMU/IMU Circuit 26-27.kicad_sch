@@ -5,10 +5,10 @@
 	(uuid "d185ddb1-e4c7-4aec-9e87-37dceb424272")
 	(paper "A4")
 	(title_block
-		(title "CAN Circuit 26-27")
+		(title "IMU Circuit 26-27")
 		(date "2026-08-31")
 		(rev "1.0")
-		(company "UA BAJA- Graham VanDerBeek")
+		(company "UA BAJA- Johnathan Guzman")
 	)
 	(lib_symbols
 		(symbol "CAN Integration-altium-import:VCC_BAR"
@@ -1510,6 +1510,280 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_02x03_Counter_Clockwise"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x03_Counter_Clockwise"
+				(at 1.27 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_02x03_Counter_Clockwise_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers
 				(hide yes)
@@ -1694,6 +1968,158 @@
 								(size 1.27 1.27)
 							)
 						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Graphic:Logo_Open_Hardware_Small"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#SYM"
+				(at 0 6.985 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Logo_Open_Hardware_Small"
+				(at 0 -5.715 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Open Hardware logo, small"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Enable" "0"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Logo"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Logo_Open_Hardware_Small_0_1"
+				(polyline
+					(pts
+						(xy 3.3528 -4.3434) (xy 3.302 -4.318) (xy 3.175 -4.2418) (xy 2.9972 -4.1148) (xy 2.7686 -3.9624)
+						(xy 2.54 -3.81) (xy 2.3622 -3.7084) (xy 2.2352 -3.6068) (xy 2.1844 -3.5814) (xy 2.159 -3.6068)
+						(xy 2.0574 -3.6576) (xy 1.905 -3.7338) (xy 1.8034 -3.7846) (xy 1.6764 -3.8354) (xy 1.6002 -3.8354)
+						(xy 1.6002 -3.8354) (xy 1.5494 -3.7338) (xy 1.4732 -3.5306) (xy 1.3462 -3.302) (xy 1.2446 -3.0226)
+						(xy 1.1176 -2.7178) (xy 0.9652 -2.413) (xy 0.8636 -2.1082) (xy 0.7366 -1.8288) (xy 0.6604 -1.6256)
+						(xy 0.6096 -1.4732) (xy 0.5842 -1.397) (xy 0.5842 -1.397) (xy 0.6604 -1.3208) (xy 0.7874 -1.2446)
+						(xy 1.0414 -1.016) (xy 1.2954 -0.6858) (xy 1.4478 -0.3302) (xy 1.524 0.0762) (xy 1.4732 0.4572)
+						(xy 1.3208 0.8128) (xy 1.0668 1.143) (xy 0.762 1.3716) (xy 0.4064 1.524) (xy 0 1.5748) (xy -0.381 1.5494)
+						(xy -0.7366 1.397) (xy -1.0668 1.143) (xy -1.2192 0.9906) (xy -1.397 0.6604) (xy -1.524 0.3048)
+						(xy -1.524 0.2286) (xy -1.4986 -0.1778) (xy -1.397 -0.5334) (xy -1.1938 -0.8636) (xy -0.9144 -1.143)
+						(xy -0.8636 -1.1684) (xy -0.7366 -1.27) (xy -0.635 -1.3462) (xy -0.5842 -1.397) (xy -1.0668 -2.5908)
+						(xy -1.143 -2.794) (xy -1.2954 -3.1242) (xy -1.397 -3.4036) (xy -1.4986 -3.6322) (xy -1.5748 -3.7846)
+						(xy -1.6002 -3.8354) (xy -1.6002 -3.8354) (xy -1.651 -3.8354) (xy -1.7272 -3.81) (xy -1.905 -3.7338)
+						(xy -2.0066 -3.683) (xy -2.1336 -3.6068) (xy -2.2098 -3.5814) (xy -2.2606 -3.6068) (xy -2.3622 -3.683)
+						(xy -2.54 -3.81) (xy -2.7686 -3.9624) (xy -2.9718 -4.0894) (xy -3.1496 -4.2164) (xy -3.302 -4.318)
+						(xy -3.3528 -4.3434) (xy -3.3782 -4.3434) (xy -3.429 -4.318) (xy -3.5306 -4.2164) (xy -3.7084 -4.064)
+						(xy -3.937 -3.8354) (xy -3.9624 -3.81) (xy -4.1656 -3.6068) (xy -4.318 -3.4544) (xy -4.4196 -3.3274)
+						(xy -4.445 -3.2766) (xy -4.445 -3.2766) (xy -4.4196 -3.2258) (xy -4.318 -3.0734) (xy -4.2164 -2.8956)
+						(xy -4.064 -2.667) (xy -3.6576 -2.0828) (xy -3.8862 -1.5494) (xy -3.937 -1.3716) (xy -4.0386 -1.1684)
+						(xy -4.0894 -1.0414) (xy -4.1148 -0.9652) (xy -4.191 -0.9398) (xy -4.318 -0.9144) (xy -4.5466 -0.8636)
+						(xy -4.8006 -0.8128) (xy -5.0546 -0.7874) (xy -5.2578 -0.7366) (xy -5.4356 -0.7112) (xy -5.5118 -0.6858)
+						(xy -5.5118 -0.6858) (xy -5.5372 -0.635) (xy -5.5372 -0.5588) (xy -5.5372 -0.4318) (xy -5.5626 -0.2286)
+						(xy -5.5626 0.0762) (xy -5.5626 0.127) (xy -5.5372 0.4064) (xy -5.5372 0.635) (xy -5.5372 0.762)
+						(xy -5.5372 0.8382) (xy -5.5372 0.8382) (xy -5.461 0.8382) (xy -5.3086 0.889) (xy -5.08 0.9144)
+						(xy -4.826 0.9652) (xy -4.8006 0.9906) (xy -4.5466 1.0414) (xy -4.318 1.0668) (xy -4.1656 1.1176)
+						(xy -4.0894 1.143) (xy -4.0894 1.143) (xy -4.0386 1.2446) (xy -3.9624 1.4224) (xy -3.8608 1.6256)
+						(xy -3.7846 1.8288) (xy -3.7084 2.0066) (xy -3.6576 2.159) (xy -3.6322 2.2098) (xy -3.6322 2.2098)
+						(xy -3.683 2.286) (xy -3.7592 2.413) (xy -3.8862 2.5908) (xy -4.064 2.8194) (xy -4.064 2.8448)
+						(xy -4.2164 3.0734) (xy -4.3434 3.2512) (xy -4.4196 3.3782) (xy -4.445 3.4544) (xy -4.445 3.4544)
+						(xy -4.3942 3.5052) (xy -4.2926 3.6322) (xy -4.1148 3.81) (xy -3.937 4.0132) (xy -3.8608 4.064)
+						(xy -3.6576 4.2926) (xy -3.5052 4.4196) (xy -3.4036 4.4958) (xy -3.3528 4.5212) (xy -3.3528 4.5212)
+						(xy -3.302 4.4704) (xy -3.1496 4.3688) (xy -2.9718 4.2418) (xy -2.7432 4.0894) (xy -2.7178 4.0894)
+						(xy -2.4892 3.937) (xy -2.3114 3.81) (xy -2.1844 3.7084) (xy -2.1336 3.683) (xy -2.1082 3.683)
+						(xy -2.032 3.7084) (xy -1.8542 3.7592) (xy -1.6764 3.8354) (xy -1.4732 3.937) (xy -1.27 4.0132)
+						(xy -1.143 4.064) (xy -1.0668 4.1148) (xy -1.0668 4.1148) (xy -1.0414 4.191) (xy -1.016 4.3434)
+						(xy -0.9652 4.572) (xy -0.9144 4.8514) (xy -0.889 4.9022) (xy -0.8382 5.1562) (xy -0.8128 5.3848)
+						(xy -0.7874 5.5372) (xy -0.762 5.588) (xy -0.7112 5.6134) (xy -0.5842 5.6134) (xy -0.4064 5.6134)
+						(xy -0.1524 5.6134) (xy 0.0762 5.6134) (xy 0.3302 5.6134) (xy 0.5334 5.6134) (xy 0.6858 5.588)
+						(xy 0.7366 5.588) (xy 0.7366 5.588) (xy 0.762 5.5118) (xy 0.8128 5.334) (xy 0.8382 5.1054) (xy 0.9144 4.826)
+						(xy 0.9144 4.7752) (xy 0.9652 4.5212) (xy 1.016 4.2926) (xy 1.0414 4.1402) (xy 1.0668 4.0894)
+						(xy 1.0668 4.0894) (xy 1.1938 4.0386) (xy 1.3716 3.9624) (xy 1.5748 3.8608) (xy 2.0828 3.6576)
+						(xy 2.7178 4.0894) (xy 2.7686 4.1402) (xy 2.9972 4.2926) (xy 3.175 4.4196) (xy 3.302 4.4958) (xy 3.3782 4.5212)
+						(xy 3.3782 4.5212) (xy 3.429 4.4704) (xy 3.556 4.3434) (xy 3.7338 4.191) (xy 3.9116 3.9878) (xy 4.064 3.8354)
+						(xy 4.2418 3.6576) (xy 4.3434 3.556) (xy 4.4196 3.4798) (xy 4.4196 3.429) (xy 4.4196 3.4036) (xy 4.3942 3.3274)
+						(xy 4.2926 3.2004) (xy 4.1656 2.9972) (xy 4.0132 2.794) (xy 3.8862 2.5908) (xy 3.7592 2.3876)
+						(xy 3.6576 2.2352) (xy 3.6322 2.159) (xy 3.6322 2.1336) (xy 3.683 2.0066) (xy 3.7592 1.8288) (xy 3.8608 1.6002)
+						(xy 4.064 1.1176) (xy 4.3942 1.0414) (xy 4.5974 1.016) (xy 4.8768 0.9652) (xy 5.1308 0.9144) (xy 5.5372 0.8382)
+						(xy 5.5626 -0.6604) (xy 5.4864 -0.6858) (xy 5.4356 -0.6858) (xy 5.2832 -0.7366) (xy 5.0546 -0.762)
+						(xy 4.8006 -0.8128) (xy 4.5974 -0.8636) (xy 4.3688 -0.9144) (xy 4.2164 -0.9398) (xy 4.1402 -0.9398)
+						(xy 4.1148 -0.9652) (xy 4.064 -1.0668) (xy 3.9878 -1.2446) (xy 3.9116 -1.4478) (xy 3.81 -1.651)
+						(xy 3.7338 -1.8542) (xy 3.683 -2.0066) (xy 3.6576 -2.0828) (xy 3.683 -2.1336) (xy 3.7846 -2.2606)
+						(xy 3.8862 -2.4638) (xy 4.0386 -2.667) (xy 4.191 -2.8956) (xy 4.318 -3.0734) (xy 4.3942 -3.2004)
+						(xy 4.445 -3.2766) (xy 4.4196 -3.3274) (xy 4.3434 -3.429) (xy 4.1656 -3.5814) (xy 3.937 -3.8354)
+						(xy 3.8862 -3.8608) (xy 3.683 -4.064) (xy 3.5306 -4.2164) (xy 3.4036 -4.318) (xy 3.3528 -4.3434)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
 					)
 				)
 			)
@@ -2340,6 +2766,105 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Simulation_SPICE:0"
 			(power global)
 			(pin_numbers
@@ -2623,7 +3148,7 @@
 	)
 	(rectangle
 		(start 21.59 53.34)
-		(end 132.08 127)
+		(end 129.54 127)
 		(stroke
 			(width 0)
 			(type dot)
@@ -2632,6 +3157,18 @@
 			(type none)
 		)
 		(uuid "3294d588-eeaa-4380-800a-259f187a3892")
+	)
+	(rectangle
+		(start 177.8 144.78)
+		(end 195.58 162.56)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7529e075-fc8a-4e79-838d-20dd663ce126")
 	)
 	(rectangle
 		(start 21.59 130.81)
@@ -2644,6 +3181,30 @@
 			(type none)
 		)
 		(uuid "9aa3448d-dd85-41cd-8e81-18753bb9cdd8")
+	)
+	(rectangle
+		(start 133.35 104.14)
+		(end 172.72 127)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ec2120a6-cc64-4aa5-981a-70a642fbc5d9")
+	)
+	(rectangle
+		(start 138.43 67.31)
+		(end 167.64 101.6)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "ee152979-0dcf-4a70-a078-e053ec9caac9")
 	)
 	(text "10K"
 		(exclude_from_sim no)
@@ -2781,6 +3342,19 @@
 		)
 		(uuid "a53c9a94-619f-4895-84ac-f96ec3c9f493")
 	)
+	(text "DTF13 Connector"
+		(exclude_from_sim no)
+		(at 137.414 108.966 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5ea2e14-4a21-463d-9f18-1c95d11b22a7")
+	)
 	(text "SPI MODES:  0,0 & 1,1"
 		(exclude_from_sim no)
 		(at 73.66 187.96 0)
@@ -2792,7 +3366,20 @@
 		)
 		(uuid "c84f0139-5277-483a-a4bc-bc1ced784534")
 	)
-	(text "CAN Transiver"
+	(text "Baja Logo"
+		(exclude_from_sim no)
+		(at 179.578 148.844 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "c89eb5bb-a834-46f0-b4b3-a9644300e1e8")
+	)
+	(text "CAN Transciever"
 		(exclude_from_sim no)
 		(at 125.476 137.16 0)
 		(effects
@@ -2837,6 +3424,19 @@
 			(justify left bottom)
 		)
 		(uuid "eb178aea-76cd-45c4-a2b0-e70aac1d9707")
+	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 142.748 71.374 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8105546-a8a8-473b-8ac8-8e67487b7e17")
 	)
 	(text "VIN:  2.7V-5.5V."
 		(exclude_from_sim no)
@@ -3155,6 +3755,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 114.3) (xy 147.32 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54d8441f-04bd-4c09-884e-a8ad5f1f39f5")
+	)
+	(wire
+		(pts
 			(xy 59.69 83.82) (xy 59.69 87.63)
 		)
 		(stroke
@@ -3202,6 +3812,16 @@
 			(type default)
 		)
 		(uuid "6b29024f-26c9-4caa-b025-371e7a551496")
+	)
+	(wire
+		(pts
+			(xy 138.43 121.92) (xy 138.43 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b873ee5-1b8b-4ff2-a0bd-035be2481bc9")
 	)
 	(wire
 		(pts
@@ -3385,6 +4005,16 @@
 	)
 	(wire
 		(pts
+			(xy 168.91 113.03) (xy 168.91 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3544b77-f31e-4932-a37b-08a7606f0a04")
+	)
+	(wire
+		(pts
 			(xy 68.58 171.45) (xy 64.77 171.45)
 		)
 		(stroke
@@ -3462,6 +4092,16 @@
 			(type default)
 		)
 		(uuid "d4a3fb76-1b3a-4cc6-bd61-c74a0e77c6f3")
+	)
+	(wire
+		(pts
+			(xy 168.91 114.3) (xy 160.02 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b975ae-239f-4884-9c00-e535f6bbfc37")
 	)
 	(wire
 		(pts
@@ -3605,6 +4245,30 @@
 			)
 		)
 	)
+	(global_label "High"
+		(shape input)
+		(at 160.02 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3280b32c-5b3d-4d6e-b7c2-d3d80be6ff00")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.2385 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "CS"
 		(shape input)
 		(at 106.68 153.67 0)
@@ -3666,6 +4330,30 @@
 		(uuid "4cd3e175-eb9d-4ee1-a024-13524b300790")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 83.4353 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Low"
+		(shape input)
+		(at 147.32 119.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c69403b-52f7-4158-a1e4-cbd32ba6d760")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.8272 119.38 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3773,6 +4461,30 @@
 			)
 		)
 	)
+	(global_label "Low"
+		(shape input)
+		(at 147.32 116.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9aefedfa-8f30-44f3-8d8b-15e0f2c7f7be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.8272 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "SCK"
 		(shape input)
 		(at 106.68 161.29 0)
@@ -3786,6 +4498,30 @@
 		(uuid "9e37897a-f139-4747-913c-3b75d1550c47")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 113.4147 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "High"
+		(shape input)
+		(at 160.02 116.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c07c69e9-b370-4179-94bf-b61c54da1297")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 167.2385 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3818,6 +4554,82 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 144.78 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "00e56606-f15f-447c-affd-467f791d8bdc")
+		(property "Reference" "H2"
+			(at 147.32 82.5499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 147.32 85.0899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 144.78 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 144.78 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "IMU Circuit 26-27"
+				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
+					(reference "H2")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -3887,7 +4699,7 @@
 			(uuid "f479de98-ea80-4d9d-ba2e-19a0061e4728")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#PWR0112")
 					(unit 1)
@@ -4065,7 +4877,7 @@
 			(uuid "fc9130a6-40ce-481c-b5de-10a6daf57a40")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "X1")
 					(unit 0)
@@ -4144,7 +4956,7 @@
 			(uuid "89c9f239-cac1-4b70-bf5f-b085e7b7d3af")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#GND018")
 					(unit 1)
@@ -4223,9 +5035,175 @@
 			(uuid "cc1a9d9d-fddf-44a1-9105-c6dcae0e5d25")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#GND013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 138.43 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30e95354-10e8-425e-8128-7698f28cd715")
+		(property "Reference" "#GND023"
+			(at 138.43 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 138.43 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 138.43 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 138.43 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7662f18-91ef-4347-bf57-ba1ac75655c5")
+		)
+		(instances
+			(project "IMU Circuit 26-27"
+				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
+					(reference "#GND023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Graphic:Logo_Open_Hardware_Small")
+		(at 186.69 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37a5dcf7-c1c4-4133-a0ff-7d3d88d24b44")
+		(property "Reference" "Logo1"
+			(at 186.69 149.225 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Logo_Open_Hardware_Small"
+			(at 186.69 161.925 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Baja Logo for PCB:Baja Logo"
+			(at 186.69 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Open Hardware logo, small"
+			(at 186.69 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Enable" "0"
+			(at 186.69 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "IMU Circuit 26-27"
+				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
+					(reference "Logo1")
 					(unit 1)
 				)
 			)
@@ -4302,7 +5280,7 @@
 			(uuid "c00f4ece-7c7e-429d-b75c-fd9ff8909670")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#GND016")
 					(unit 1)
@@ -4381,7 +5359,7 @@
 			(uuid "551b7c48-f878-4668-b45c-8cfb9d4d43e6")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#GND020")
 					(unit 1)
@@ -4455,7 +5433,7 @@
 			(uuid "31128432-dd5d-4dba-9000-9982485a2b60")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#PWR0113")
 					(unit 1)
@@ -4529,7 +5507,7 @@
 			(uuid "37b35b43-04c9-4aa0-bdec-99b82d7a015d")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#PWR0102")
 					(unit 1)
@@ -4617,7 +5595,7 @@
 			(uuid "708a62e1-e6d3-4dc5-99c5-f29be84b10b1")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "U3")
 					(unit 1)
@@ -4696,9 +5674,100 @@
 			(uuid "8636849c-0ffb-4b85-bc20-de8a880c280c")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#GND021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise")
+		(at 152.4 116.84 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5b539c7d-4ba0-4bf6-97bc-270671b08634")
+		(property "Reference" "J1"
+			(at 153.924 110.998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x03_Counter_Clockwise"
+			(at 155.956 122.682 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DTF13:TE_DTF13-6P"
+			(at 152.4 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 152.4 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cd57f671-2716-4d1d-b548-0e1722b24c94")
+		)
+		(pin "5"
+			(uuid "48139e6e-0b60-4499-ba9c-acc33657adbe")
+		)
+		(pin "3"
+			(uuid "629dba35-467a-4d7e-be74-a4162c9f87ea")
+		)
+		(pin "1"
+			(uuid "dd46ca71-f533-4417-92ea-17f61ec4f7ad")
+		)
+		(pin "4"
+			(uuid "35a7118f-058a-43bc-990a-30f3b266f1ed")
+		)
+		(pin "6"
+			(uuid "833ef6d0-2610-4218-a682-364e7bdde256")
+		)
+		(instances
+			(project "IMU Circuit 26-27"
+				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4770,7 +5839,7 @@
 			(uuid "672af229-8c33-4b52-9ec9-e74a8022d650")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#PWR0108")
 					(unit 1)
@@ -5045,10 +6114,84 @@
 			(uuid "d8fe9f63-a2c6-4829-b31e-8ecfa72faf33")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "C4")
 					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CAN Integration-altium-import:VCC_BAR")
+		(at 168.91 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "67ebec41-9799-494e-8fa5-a2774fcfdcc3")
+		(property "Reference" "#PWR0105"
+			(at 168.91 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 168.91 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 168.91 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "bd3a8f58-84ba-4093-ab80-09425c80688e")
+		)
+		(instances
+			(project "IMU Circuit 26-27"
+				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
+					(reference "#PWR0105")
+					(unit 1)
 				)
 			)
 		)
@@ -5320,7 +6463,7 @@
 			(uuid "b69c5003-566f-424f-8ba4-4fc35d127c94")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "C3")
 					(unit 0)
@@ -5402,7 +6545,7 @@
 			(uuid "a5e13123-fe4a-4d56-90a7-24a3e9bf8704")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "C1")
 					(unit 0)
@@ -5476,7 +6619,7 @@
 			(uuid "d07ee039-d551-4047-a7c8-9912314cbe1c")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#PWR0101")
 					(unit 1)
@@ -5487,7 +6630,7 @@
 	(symbol
 		(lib_id "CAN Integration-altium-import:root_0_TJA1050DRG_adafruit.SCHLIB")
 		(at 125.73 140.97 0)
-		(unit 0)
+		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5720,10 +6863,10 @@
 			(uuid "700919cd-a639-4e20-ba76-c0ae739cb1db")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "U1")
-					(unit 0)
+					(unit 1)
 				)
 			)
 		)
@@ -5794,7 +6937,7 @@
 			(uuid "84310dc8-20ff-42b6-ade9-a61a62a385f5")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#PWR0115")
 					(unit 1)
@@ -6069,10 +7212,86 @@
 			(uuid "b1cd36e3-ecfa-4489-a27f-392edca0f799")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "C2")
 					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 144.78 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "85353a80-ecb5-4f2b-b743-31b62ab13cd7")
+		(property "Reference" "H4"
+			(at 147.32 95.2499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 147.32 97.7899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 144.78 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 144.78 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "IMU Circuit 26-27"
+				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
+					(reference "H4")
+					(unit 1)
 				)
 			)
 		)
@@ -6143,7 +7362,7 @@
 			(uuid "66562876-6770-407b-9f69-82337f83a216")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#PWR0104")
 					(unit 1)
@@ -6222,7 +7441,7 @@
 			(uuid "ab3314cf-b290-4fa5-b0ed-bbda4809527f")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#GND015")
 					(unit 1)
@@ -6508,7 +7727,7 @@
 			(uuid "51f9d25e-7a3e-4f92-ac5f-2889af77626b")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "U2")
 					(unit 0)
@@ -6582,7 +7801,7 @@
 			(uuid "f6a9606b-1262-4eff-9e32-66b51dd0722a")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#PWR0116")
 					(unit 1)
@@ -6661,7 +7880,7 @@
 			(uuid "8270871d-013f-44d0-97c8-988b49219bba")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#GND022")
 					(unit 1)
@@ -6936,7 +8155,7 @@
 			(uuid "5e16c315-dfd9-4313-9a42-daec9f2242d0")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "C5")
 					(unit 0)
@@ -7010,9 +8229,85 @@
 			(uuid "f92941c0-6643-410f-9667-c0758bbf83cb")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 144.78 77.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2010145-a5b7-490a-97ec-278fa7824527")
+		(property "Reference" "H1"
+			(at 147.32 76.1999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 147.32 78.7399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 144.78 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 144.78 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "IMU Circuit 26-27"
+				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -7089,9 +8384,85 @@
 			(uuid "d9e90777-d22d-46f2-b3b8-57baf22ced05")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#GND019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 144.78 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ca864b88-7978-41f2-9367-67e23c296706")
+		(property "Reference" "H3"
+			(at 147.32 88.8999 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 147.32 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3"
+			(at 144.78 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 144.78 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "IMU Circuit 26-27"
+				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -7171,7 +8542,7 @@
 			(uuid "c5c07965-4730-4d49-9859-180cb692e280")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "C6")
 					(unit 0)
@@ -7251,7 +8622,7 @@
 			(uuid "17f6e508-8ca1-4c68-9673-1ec0ad32fc08")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "R3")
 					(unit 1)
@@ -7417,7 +8788,7 @@
 			(uuid "4956a135-8fcd-493d-8062-0292e64cccf1")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "A1")
 					(unit 1)
@@ -7692,7 +9063,7 @@
 			(uuid "2dcfdfa9-5afc-4f29-be85-70406a50f8d5")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "C7")
 					(unit 0)
@@ -7766,7 +9137,7 @@
 			(uuid "24aa2a9d-79f3-4550-a63a-97c8283b16e1")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#PWR0114")
 					(unit 1)
@@ -7845,7 +9216,7 @@
 			(uuid "fbeb2d56-2a2b-41c6-b7cb-a9ceb746d315")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#GND01")
 					(unit 1)
@@ -7924,7 +9295,7 @@
 			(uuid "93c3904c-53a6-40a5-9e72-3096b08c0876")
 		)
 		(instances
-			(project "CAN Module Circuit 26-27"
+			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#GND017")
 					(unit 1)
