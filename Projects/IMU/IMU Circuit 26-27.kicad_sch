@@ -3576,10 +3576,6 @@
 		(uuid "9b716a8f-b2b9-4c02-a462-7b272339a0c4")
 	)
 	(no_connect
-		(at 90.17 83.82)
-		(uuid "af83600c-b783-4b65-a963-7a1b1e295f67")
-	)
-	(no_connect
 		(at 115.57 111.76)
 		(uuid "b1db72b1-f085-41d1-afed-6cf9fa5884e1")
 	)
@@ -4186,6 +4182,30 @@
 		(uuid "06f5ba9b-fcac-4c72-a741-2d824150e0ee")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 84.6448 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "INT"
+		(shape input)
+		(at 90.17 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "08d4469f-cfb2-4ac6-844e-1b933a89c980")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 84.2819 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5127,7 +5147,7 @@
 		(at 186.69 156.21 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(in_pos_files yes)
@@ -5179,17 +5199,6 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
-			(at 186.69 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 186.69 156.21 0)
 			(hide yes)
 			(show_name no)
