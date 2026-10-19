@@ -3206,6 +3206,18 @@
 		)
 		(uuid "ee152979-0dcf-4a70-a078-e053ec9caac9")
 	)
+	(rectangle
+		(start 175.26 100.33)
+		(end 205.74 127)
+		(stroke
+			(width 0)
+			(type dot)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "f29fa1df-ef82-4642-ad72-626de2efc9cb")
+	)
 	(text "10K"
 		(exclude_from_sim no)
 		(at 58.674 159.766 0)
@@ -3295,6 +3307,19 @@
 			(justify left bottom)
 		)
 		(uuid "8c77d13e-a037-465b-8b47-a3cd656fd723")
+	)
+	(text "Termination Resistor\n(Optional)"
+		(exclude_from_sim no)
+		(at 190.754 107.696 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+			(justify bottom)
+		)
+		(uuid "926382b3-7b1a-4442-9b6f-0ae652e5513d")
 	)
 	(text "22pF"
 		(exclude_from_sim no)
@@ -3861,6 +3886,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 120.65) (xy 190.5 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd71ec4-b7ca-49f8-a002-88cad9b7bdf8")
+	)
+	(wire
+		(pts
 			(xy 59.69 179.07) (xy 59.69 180.34)
 		)
 		(stroke
@@ -4101,6 +4136,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 110.49) (xy 190.5 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6b1d894-b1f4-41a4-8328-41dc08f1f7a1")
+	)
+	(wire
+		(pts
 			(xy 168.91 114.3) (xy 160.02 114.3)
 		)
 		(stroke
@@ -4285,6 +4330,30 @@
 			)
 		)
 	)
+	(global_label "Low"
+		(shape input)
+		(at 190.5 123.19 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2af21fc4-5574-475b-a5af-22e2a284b021")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.0072 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "High"
 		(shape input)
 		(at 160.02 119.38 0)
@@ -4322,6 +4391,30 @@
 		(uuid "3b61be57-9efb-4e85-9022-41c4bb894737")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 112.1447 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "High"
+		(shape input)
+		(at 190.5 110.49 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "400c394b-0aeb-4964-a700-107b2b88f4ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.7185 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8678,6 +8771,88 @@
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "C6")
 					(unit 0)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 190.5 116.84 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd22896c-b6bb-4a49-bc4e-1534d7846e3b")
+		(property "Reference" "R4"
+			(at 193.04 115.5699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "120"
+			(at 193.04 118.1099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
+			(at 189.484 116.586 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 190.5 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bba682ed-5a89-4fb5-9c3e-f7cdbaa6ceef")
+		)
+		(pin "2"
+			(uuid "daaae9b6-9938-4f70-929b-f4149afe0ff7")
+		)
+		(instances
+			(project "IMU Circuit 26-27"
+				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
+					(reference "R4")
+					(unit 1)
 				)
 			)
 		)
