@@ -3147,7 +3147,7 @@
 		)
 	)
 	(rectangle
-		(start 21.59 53.34)
+		(start 21.59 54.61)
 		(end 129.54 127)
 		(stroke
 			(width 0)
@@ -3159,8 +3159,8 @@
 		(uuid "3294d588-eeaa-4380-800a-259f187a3892")
 	)
 	(rectangle
-		(start 177.8 144.78)
-		(end 195.58 162.56)
+		(start 176.53 142.24)
+		(end 196.85 162.56)
 		(stroke
 			(width 0)
 			(type dot)
@@ -3366,16 +3366,16 @@
 		)
 		(uuid "c84f0139-5277-483a-a4bc-bc1ced784534")
 	)
-	(text "Baja Logo"
+	(text "Baja Logo\n(Pretend it is)"
 		(exclude_from_sim no)
-		(at 179.578 148.844 0)
+		(at 186.69 148.844 0)
 		(effects
 			(font
 				(size 1.778 1.778)
 				(thickness 0.3556)
 				(bold yes)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 		(uuid "c89eb5bb-a834-46f0-b4b3-a9644300e1e8")
 	)
@@ -3801,6 +3801,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 173.99) (xy 147.32 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67565ec5-e742-491c-921e-6ae20295f836")
+	)
+	(wire
+		(pts
 			(xy 59.69 83.82) (xy 62.23 83.82)
 		)
 		(stroke
@@ -4138,6 +4148,16 @@
 			(type default)
 		)
 		(uuid "ee5f034f-43eb-46da-b0a3-c115157d1716")
+	)
+	(wire
+		(pts
+			(xy 147.32 173.99) (xy 147.32 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef17010f-8680-4fe7-a1e3-3a5117940a1d")
 	)
 	(wire
 		(pts
@@ -4566,6 +4586,30 @@
 		(uuid "e495ecdd-830f-4d90-843b-31351111aeb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 132.5857 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 149.86 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f4539ddc-a375-4fb1-9661-c65901929801")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 156.7157 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5712,8 +5756,8 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x03_Counter_Clockwise"
-			(at 155.956 122.682 0)
+		(property "Value" "DTF Connector"
+			(at 153.67 122.682 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7813,6 +7857,85 @@
 			(project "IMU Circuit 26-27"
 				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
 					(reference "#PWR0116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 147.32 177.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a30ecaa9-9116-4959-9932-814e91fa0406")
+		(property "Reference" "#GND024"
+			(at 147.32 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 147.32 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 147.32 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 147.32 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9186d873-9d69-44b9-b5d9-84c8accea6d6")
+		)
+		(instances
+			(project "IMU Circuit 26-27"
+				(path "/d185ddb1-e4c7-4aec-9e87-37dceb424272"
+					(reference "#GND024")
 					(unit 1)
 				)
 			)
