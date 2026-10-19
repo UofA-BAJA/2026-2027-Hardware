@@ -3112,6 +3112,18 @@
 		(uuid "7bf42115-c94e-43bf-8802-b045a52b9df7")
 	)
 	(junction
+		(at 250.19 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c655a788-bf67-47f2-b90c-77b982cc98c5")
+	)
+	(junction
+		(at 250.19 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e341e11e-f794-4a1a-a50a-cf3f423f4c41")
+	)
+	(junction
 		(at 144.78 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3239,7 +3251,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 85.09) (xy 163.83 63.5)
+			(xy 175.26 85.09) (xy 175.26 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3279,7 +3291,17 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 80.01) (xy 124.46 63.5)
+			(xy 130.81 80.01) (xy 102.87 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21135610-6441-49ca-a080-d8bbbc4a69b1")
+	)
+	(wire
+		(pts
+			(xy 135.89 78.74) (xy 135.89 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3339,6 +3361,16 @@
 	)
 	(wire
 		(pts
+			(xy 247.65 110.49) (xy 247.65 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ce45c61-5fdc-452e-9943-711273ae952c")
+	)
+	(wire
+		(pts
 			(xy 144.78 135.89) (xy 147.32 135.89)
 		)
 		(stroke
@@ -3356,6 +3388,16 @@
 			(type default)
 		)
 		(uuid "50422d45-d28c-4ccf-b308-d04cb35bd28a")
+	)
+	(wire
+		(pts
+			(xy 107.95 77.47) (xy 107.95 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba1cf04-2c39-483d-8fa4-2f1269c7d3fb")
 	)
 	(wire
 		(pts
@@ -3379,13 +3421,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 77.47) (xy 105.41 77.47)
+			(xy 102.87 77.47) (xy 107.95 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65c0dc85-2e2a-4a50-a287-44fc251fe50d")
+		(uuid "69fd8e94-bb2a-462c-a681-e9b598b9cef9")
 	)
 	(wire
 		(pts
@@ -3429,7 +3471,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 85.09) (xy 163.83 85.09)
+			(xy 102.87 85.09) (xy 175.26 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3439,7 +3481,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 82.55) (xy 143.51 82.55)
+			(xy 102.87 82.55) (xy 156.21 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3449,23 +3491,23 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 63.5) (xy 113.03 63.5)
+			(xy 250.19 107.95) (xy 252.73 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "82082875-246e-4056-8d49-d7d43f516563")
+		(uuid "9246ad28-6f8e-49a5-9342-9170d8129abf")
 	)
 	(wire
 		(pts
-			(xy 105.41 77.47) (xy 105.41 63.5)
+			(xy 107.95 62.23) (xy 118.11 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f4f7b97-4e58-4941-854f-dd1e12501555")
+		(uuid "958459e6-ee19-4472-ab7a-db6cfd767016")
 	)
 	(wire
 		(pts
@@ -3479,7 +3521,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 63.5) (xy 172.72 63.5)
+			(xy 175.26 62.23) (xy 193.04 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3489,13 +3531,33 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 63.5) (xy 151.13 63.5)
+			(xy 247.65 107.95) (xy 250.19 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9bce01dd-89a4-4402-8857-6a29b2cb3659")
+	)
+	(wire
+		(pts
+			(xy 156.21 62.23) (xy 163.83 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9bcfa9d7-5da6-4c7a-9cdc-7b8355615711")
+	)
+	(wire
+		(pts
+			(xy 250.19 115.57) (xy 252.73 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9befaf59-7ec5-4c7b-ae0f-29acdd06dadb")
 	)
 	(wire
 		(pts
@@ -3539,7 +3601,27 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 80.01) (xy 124.46 80.01)
+			(xy 247.65 115.57) (xy 250.19 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaa09062-0706-4321-9c83-e5d993395374")
+	)
+	(wire
+		(pts
+			(xy 130.81 78.74) (xy 130.81 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af13b55d-e957-41de-9dbc-04a96f1aa16b")
+	)
+	(wire
+		(pts
+			(xy 130.81 78.74) (xy 135.89 78.74)
 		)
 		(stroke
 			(width 0)
@@ -3609,7 +3691,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 63.5) (xy 132.08 63.5)
+			(xy 135.89 62.23) (xy 143.51 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3649,7 +3731,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 82.55) (xy 143.51 63.5)
+			(xy 156.21 82.55) (xy 156.21 62.23)
 		)
 		(stroke
 			(width 0)
@@ -3666,6 +3748,16 @@
 			(type default)
 		)
 		(uuid "e88be210-b88e-43a9-a7b9-2fa9e5e46da3")
+	)
+	(wire
+		(pts
+			(xy 247.65 113.03) (xy 247.65 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee5c8117-b731-4fc7-994a-53c89615b49f")
 	)
 	(wire
 		(pts
@@ -3713,7 +3805,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 113.03 66.04 180)
+		(at 118.11 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3723,7 +3815,7 @@
 		)
 		(uuid "15832600-7c47-4ce5-8b23-efa175d26d54")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.1743 66.04 0)
+			(at 111.2543 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3737,7 +3829,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 151.13 60.96 180)
+		(at 163.83 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3747,7 +3839,7 @@
 		)
 		(uuid "269ef1b6-1181-4301-a90c-09b08e7e7698")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.2743 60.96 0)
+			(at 156.9743 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3759,9 +3851,9 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "+5V"
 		(shape input)
-		(at 172.72 58.42 180)
+		(at 193.04 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3771,7 +3863,7 @@
 		)
 		(uuid "2985f006-7223-42c0-9b76-003a7219e0b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 167.4367 58.42 0)
+			(at 186.1843 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3785,7 +3877,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 113.03 60.96 180)
+		(at 118.11 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3795,7 +3887,7 @@
 		)
 		(uuid "3860fcf4-d68c-44f9-95f5-4182e8b8a42f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.1743 60.96 0)
+			(at 111.2543 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3881,7 +3973,7 @@
 	)
 	(global_label "Low"
 		(shape input)
-		(at 247.65 113.03 0)
+		(at 252.73 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3891,7 +3983,7 @@
 		)
 		(uuid "71305798-5839-4b7e-a33a-6d8066b29440")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.1428 113.03 0)
+			(at 259.2228 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3903,9 +3995,9 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "+5V"
 		(shape input)
-		(at 224.79 44.45 180)
+		(at 227.33 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3915,7 +4007,7 @@
 		)
 		(uuid "718b8baf-d50c-4078-b020-f138ae43a131")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 219.5067 44.45 0)
+			(at 220.4743 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3927,9 +4019,9 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "+5V"
 		(shape input)
-		(at 132.08 58.42 180)
+		(at 143.51 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3939,7 +4031,7 @@
 		)
 		(uuid "73a96a9f-976f-49d6-aee3-72051d9a6bc7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 126.7967 58.42 0)
+			(at 136.6543 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3977,7 +4069,7 @@
 	)
 	(global_label "Low"
 		(shape input)
-		(at 224.79 34.29 180)
+		(at 227.33 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3987,7 +4079,7 @@
 		)
 		(uuid "947bb3b0-9ef0-4a5c-8ba1-73da64fc0b12")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.2972 34.29 0)
+			(at 220.8372 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4001,7 +4093,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 172.72 66.04 180)
+		(at 193.04 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4011,7 +4103,7 @@
 		)
 		(uuid "9849de75-cbf5-4638-b088-d2afa612db87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.8643 66.04 0)
+			(at 186.1843 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4023,9 +4115,9 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "+5V"
 		(shape input)
-		(at 151.13 58.42 180)
+		(at 163.83 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4035,7 +4127,7 @@
 		)
 		(uuid "9c622804-b1e5-4997-81c8-780a652c3de8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.8467 58.42 0)
+			(at 156.9743 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4095,7 +4187,7 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "+5V"
 		(shape input)
 		(at 95.25 52.07 90)
 		(fields_autoplaced yes)
@@ -4108,7 +4200,7 @@
 		)
 		(uuid "a65f3480-d597-43f8-b7ea-4cd851f3076c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 95.25 46.7867 90)
+			(at 95.25 45.2143 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4122,7 +4214,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 151.13 66.04 180)
+		(at 163.83 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4132,7 +4224,7 @@
 		)
 		(uuid "a8926b94-a240-412f-87d5-68e9357112bb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.2743 66.04 0)
+			(at 156.9743 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4146,7 +4238,7 @@
 	)
 	(global_label "Low"
 		(shape input)
-		(at 224.79 36.83 180)
+		(at 227.33 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4156,7 +4248,7 @@
 		)
 		(uuid "ae244376-927f-4b32-ba2a-6479b67fe9a4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 218.2972 36.83 0)
+			(at 220.8372 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4170,7 +4262,7 @@
 	)
 	(global_label "High"
 		(shape input)
-		(at 224.79 41.91 180)
+		(at 227.33 76.2 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4180,7 +4272,7 @@
 		)
 		(uuid "ae93398d-598b-47ef-a17f-0ab54221e02d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.5715 41.91 0)
+			(at 220.1115 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4242,7 +4334,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 132.08 60.96 180)
+		(at 143.51 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4252,7 +4344,7 @@
 		)
 		(uuid "b20d43b8-175f-4c1b-a11d-27dabe6e2ed6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.2243 60.96 0)
+			(at 136.6543 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4266,7 +4358,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 132.08 66.04 180)
+		(at 143.51 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4276,7 +4368,7 @@
 		)
 		(uuid "b3948198-87ed-47d6-b239-a5c67dd0f2e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 125.2243 66.04 0)
+			(at 136.6543 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4290,7 +4382,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 172.72 60.96 180)
+		(at 193.04 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4300,7 +4392,7 @@
 		)
 		(uuid "b597fd1b-5494-4a73-a29b-143a242afad5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.8643 60.96 0)
+			(at 186.1843 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4314,7 +4406,7 @@
 	)
 	(global_label "High"
 		(shape input)
-		(at 224.79 39.37 180)
+		(at 227.33 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4324,7 +4416,7 @@
 		)
 		(uuid "c7f61171-f371-410f-93a4-4d44e80a1b2b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.5715 39.37 0)
+			(at 220.1115 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4360,9 +4452,9 @@
 			)
 		)
 	)
-	(global_label "5V"
+	(global_label "+5V"
 		(shape input)
-		(at 113.03 58.42 180)
+		(at 118.11 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4372,7 +4464,7 @@
 		)
 		(uuid "d82586fe-484f-47fc-ba80-363fc7999532")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.7467 58.42 0)
+			(at 111.2543 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4386,7 +4478,7 @@
 	)
 	(global_label "GND"
 		(shape input)
-		(at 224.79 31.75 180)
+		(at 227.33 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4396,7 +4488,7 @@
 		)
 		(uuid "e13b358b-db3d-441b-a4e9-955aac013a92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.9343 31.75 0)
+			(at 220.4743 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4482,7 +4574,7 @@
 	)
 	(global_label "High"
 		(shape input)
-		(at 247.65 110.49 0)
+		(at 252.73 107.95 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4492,7 +4584,7 @@
 		)
 		(uuid "ffc8d467-fcf7-415b-a8dc-064e5763eaad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 254.8685 110.49 0)
+			(at 259.9485 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4781,7 +4873,7 @@
 	)
 	(symbol
 		(lib_id "Displacement Pins:Displacement_pins")
-		(at 172.72 60.96 0)
+		(at 193.04 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4789,10 +4881,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "039ade90-6fb7-41fa-963f-b374b3814b70")
-		(property "Reference" "U3"
-			(at 184.15 62.2299 0)
+		(property "Reference" "B3"
+			(at 198.374 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4803,7 +4894,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 172.72 60.96 0)
+			(at 193.04 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4812,8 +4903,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 172.72 60.96 0)
+		(property "Footprint" "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+			(at 193.04 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4824,7 +4915,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 60.96 0)
+			(at 193.04 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4835,7 +4926,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 60.96 0)
+			(at 193.04 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4860,7 +4951,7 @@
 		(instances
 			(project "Displacement Sensor 2"
 				(path "/cef208de-ab75-42af-9ed7-91863f7f236f"
-					(reference "U3")
+					(reference "B3")
 					(unit 1)
 				)
 			)
@@ -5339,7 +5430,7 @@
 	)
 	(symbol
 		(lib_id "Displacement Pins:Displacement_pins")
-		(at 113.03 60.96 0)
+		(at 118.11 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5347,10 +5438,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "31c420aa-8345-4dd8-bc5b-16e82905996b")
-		(property "Reference" "U0"
-			(at 124.46 62.2299 0)
+		(property "Reference" "B0"
+			(at 123.19 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5361,7 +5451,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 113.03 60.96 0)
+			(at 118.11 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5370,8 +5460,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 113.03 60.96 0)
+		(property "Footprint" "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+			(at 118.11 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5382,7 +5472,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 60.96 0)
+			(at 118.11 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5393,7 +5483,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 113.03 60.96 0)
+			(at 118.11 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5418,7 +5508,7 @@
 		(instances
 			(project "Displacement Sensor 2"
 				(path "/cef208de-ab75-42af-9ed7-91863f7f236f"
-					(reference "U0")
+					(reference "B0")
 					(unit 1)
 				)
 			)
@@ -6425,7 +6515,7 @@
 	)
 	(symbol
 		(lib_id "Displacement Pins:Displacement_pins")
-		(at 151.13 60.96 0)
+		(at 163.83 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6433,10 +6523,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9c2dff79-3590-4870-b428-ba2cedbb5f23")
-		(property "Reference" "U2"
-			(at 162.56 62.2299 0)
+		(property "Reference" "B2"
+			(at 169.164 54.356 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6447,7 +6536,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 151.13 60.96 0)
+			(at 163.83 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6456,8 +6545,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 151.13 60.96 0)
+		(property "Footprint" "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+			(at 163.83 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6468,7 +6557,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 60.96 0)
+			(at 163.83 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6479,7 +6568,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 60.96 0)
+			(at 163.83 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6504,7 +6593,7 @@
 		(instances
 			(project "Displacement Sensor 2"
 				(path "/cef208de-ab75-42af-9ed7-91863f7f236f"
-					(reference "U2")
+					(reference "B2")
 					(unit 1)
 				)
 			)
@@ -6740,7 +6829,7 @@
 	)
 	(symbol
 		(lib_id "DTF13-6P:DTF13-6P")
-		(at 234.95 36.83 0)
+		(at 237.49 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6751,7 +6840,7 @@
 		(fields_autoplaced yes)
 		(uuid "e57632c2-4fd7-4776-817a-d2c77d48d463")
 		(property "Reference" "J1"
-			(at 241.3 36.8299 0)
+			(at 243.84 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6762,7 +6851,7 @@
 			)
 		)
 		(property "Value" "DTF13-6P"
-			(at 241.3 39.3699 0)
+			(at 243.84 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6773,7 +6862,7 @@
 			)
 		)
 		(property "Footprint" "DTF13-6P:TE_DTF13-6P"
-			(at 234.95 36.83 0)
+			(at 237.49 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6785,7 +6874,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 36.83 0)
+			(at 237.49 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6796,7 +6885,7 @@
 			)
 		)
 		(property "Description" "Connector, 6-Way, Black, Polyamide, DT Series | TE Connectivity DTF13-6P"
-			(at 234.95 36.83 0)
+			(at 237.49 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6808,7 +6897,7 @@
 			)
 		)
 		(property "Comment" "DTF13-6P"
-			(at 234.95 36.83 0)
+			(at 237.49 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6820,7 +6909,7 @@
 			)
 		)
 		(property "MF" "TE Connectivity"
-			(at 234.95 36.83 0)
+			(at 237.49 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6832,7 +6921,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "22.35mm"
-			(at 234.95 36.83 0)
+			(at 237.49 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6844,7 +6933,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 234.95 36.83 0)
+			(at 237.49 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6856,7 +6945,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 234.95 36.83 0)
+			(at 237.49 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6868,7 +6957,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/DTF13-6P/TE+Connectivity+Deutsch+Connectors/view-part/?ref=eda"
-			(at 234.95 36.83 0)
+			(at 237.49 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6880,7 +6969,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 234.95 36.83 0)
+			(at 237.49 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6892,7 +6981,7 @@
 			)
 		)
 		(property "PARTREV" "B"
-			(at 234.95 36.83 0)
+			(at 237.49 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6904,7 +6993,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DTF13-6P/TE+Connectivity+Deutsch+Connectors/view-part/?ref=snap"
-			(at 234.95 36.83 0)
+			(at 237.49 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6916,7 +7005,7 @@
 			)
 		)
 		(property "MP" "DTF13-6P"
-			(at 234.95 36.83 0)
+			(at 237.49 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6928,7 +7017,7 @@
 			)
 		)
 		(property "EU_RoHS_Compliance" "Compliant with Exemptions"
-			(at 234.95 36.83 0)
+			(at 237.49 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6940,7 +7029,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 234.95 36.83 0)
+			(at 237.49 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6952,7 +7041,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 234.95 36.83 0)
+			(at 237.49 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6992,7 +7081,7 @@
 	)
 	(symbol
 		(lib_id "Displacement Pins:Displacement_pins")
-		(at 132.08 60.96 0)
+		(at 143.51 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7000,10 +7089,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e648f25b-7136-4b53-bc32-df1884022ef5")
-		(property "Reference" "U1"
-			(at 143.51 62.2299 0)
+		(property "Reference" "B1"
+			(at 148.59 54.102 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7014,7 +7102,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 132.08 60.96 0)
+			(at 143.51 59.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7023,8 +7111,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 132.08 60.96 0)
+		(property "Footprint" "Connector:NS-Tech_Grove_1x04_P2mm_Vertical"
+			(at 143.51 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7035,7 +7123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 60.96 0)
+			(at 143.51 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7046,7 +7134,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 60.96 0)
+			(at 143.51 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7071,7 +7159,88 @@
 		(instances
 			(project "Displacement Sensor 2"
 				(path "/cef208de-ab75-42af-9ed7-91863f7f236f"
-					(reference "U1")
+					(reference "B1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 250.19 111.76 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ea36583f-0199-4ad4-8a45-150cfd5e95f5")
+		(property "Reference" "R1"
+			(at 248.92 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120k"
+			(at 247.904 106.172 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
+			(at 251.206 112.014 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 250.19 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "abe810f7-26a9-43c1-9a3a-c9c04b2c9322")
+		)
+		(pin "1"
+			(uuid "91cff1d4-acd2-48b6-a74d-b43186c87143")
+		)
+		(instances
+			(project "Displacement Sensor 2"
+				(path "/cef208de-ab75-42af-9ed7-91863f7f236f"
+					(reference "R1")
 					(unit 1)
 				)
 			)
