@@ -3088,6 +3088,12 @@
 		(uuid "fd985986-b040-4ca9-b14e-acc25eca8d82")
 	)
 	(junction
+		(at 250.19 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15f9b517-5332-4cb3-9ca2-36df7648226b")
+	)
+	(junction
 		(at 144.78 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3115,13 +3121,7 @@
 		(at 250.19 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c655a788-bf67-47f2-b90c-77b982cc98c5")
-	)
-	(junction
-		(at 250.19 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e341e11e-f794-4a1a-a50a-cf3f423f4c41")
+		(uuid "ce1d6773-cc77-42ea-aecf-b47042a4219b")
 	)
 	(junction
 		(at 144.78 123.19)
@@ -3441,6 +3441,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 115.57) (xy 252.73 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dd1d2bb-0fc2-4e5e-bdcc-b8196bdc7004")
+	)
+	(wire
+		(pts
 			(xy 223.52 144.78) (xy 226.06 144.78)
 		)
 		(stroke
@@ -3471,6 +3481,16 @@
 	)
 	(wire
 		(pts
+			(xy 250.19 107.95) (xy 252.73 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b11c61a-e0ff-4839-b004-bd6c98239332")
+	)
+	(wire
+		(pts
 			(xy 102.87 85.09) (xy 175.26 85.09)
 		)
 		(stroke
@@ -3488,16 +3508,6 @@
 			(type default)
 		)
 		(uuid "7bb96bcb-6714-4751-9bf9-03941fde80f0")
-	)
-	(wire
-		(pts
-			(xy 250.19 107.95) (xy 252.73 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9246ad28-6f8e-49a5-9342-9170d8129abf")
 	)
 	(wire
 		(pts
@@ -3531,16 +3541,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 107.95) (xy 250.19 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bce01dd-89a4-4402-8857-6a29b2cb3659")
-	)
-	(wire
-		(pts
 			(xy 156.21 62.23) (xy 163.83 62.23)
 		)
 		(stroke
@@ -3551,7 +3551,7 @@
 	)
 	(wire
 		(pts
-			(xy 250.19 115.57) (xy 252.73 115.57)
+			(xy 247.65 115.57) (xy 250.19 115.57)
 		)
 		(stroke
 			(width 0)
@@ -3598,16 +3598,6 @@
 			(type default)
 		)
 		(uuid "aa8c6d3d-e624-46fa-bc4b-cd2078acaa05")
-	)
-	(wire
-		(pts
-			(xy 247.65 115.57) (xy 250.19 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaa09062-0706-4321-9c83-e5d993395374")
 	)
 	(wire
 		(pts
@@ -3728,6 +3718,16 @@
 			(type default)
 		)
 		(uuid "de9bacfb-ca69-4fab-8730-af5fd77aa087")
+	)
+	(wire
+		(pts
+			(xy 247.65 107.95) (xy 250.19 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5a612f4-a6a1-4fff-ab8a-60609186f445")
 	)
 	(wire
 		(pts
@@ -3944,6 +3944,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 201.93 151.13 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "69e562dd-c821-4f30-a57f-c5116840b0ad")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 201.93 144.2743 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -5429,6 +5453,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:0")
+		(at 201.93 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30da8321-ddc2-4a3a-9e4f-60e927d5c9d9")
+		(property "Reference" "#GND02"
+			(at 201.93 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 201.93 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 201.93 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 201.93 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c08a8df-a7b5-4ef6-9ebf-cac8122628f4")
+		)
+		(instances
+			(project "Displacement Sensor 2"
+				(path "/cef208de-ab75-42af-9ed7-91863f7f236f"
+					(reference "#GND02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Displacement Pins:Displacement_pins")
 		(at 118.11 59.69 0)
 		(unit 1)
@@ -6600,6 +6703,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 250.19 111.76 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ba50a5f7-1c80-48be-aacf-cbe3094e3961")
+		(property "Reference" "R1"
+			(at 252.73 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "120"
+			(at 252.73 113.0299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 249.174 111.506 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 250.19 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7e3991a1-d4b9-4cb9-b90e-edd081107d28")
+		)
+		(pin "2"
+			(uuid "ed7f49bc-4acb-46db-bf5c-910aa012b41e")
+		)
+		(instances
+			(project "Displacement Sensor 2"
+				(path "/cef208de-ab75-42af-9ed7-91863f7f236f"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CAN Integration-altium-import:VCC_BAR")
 		(at 223.52 142.24 180)
 		(unit 1)
@@ -6779,7 +6964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 160.274 122.174 90)
 			(hide yes)
 			(show_name no)
@@ -7160,87 +7345,6 @@
 			(project "Displacement Sensor 2"
 				(path "/cef208de-ab75-42af-9ed7-91863f7f236f"
 					(reference "B1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 250.19 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ea36583f-0199-4ad4-8a45-150cfd5e95f5")
-		(property "Reference" "R1"
-			(at 248.92 104.14 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "120k"
-			(at 247.904 106.172 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 251.206 112.014 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 250.19 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 250.19 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "abe810f7-26a9-43c1-9a3a-c9c04b2c9322")
-		)
-		(pin "1"
-			(uuid "91cff1d4-acd2-48b6-a74d-b43186c87143")
-		)
-		(instances
-			(project "Displacement Sensor 2"
-				(path "/cef208de-ab75-42af-9ed7-91863f7f236f"
-					(reference "R1")
 					(unit 1)
 				)
 			)
