@@ -792,7 +792,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "H3R3"
-			(at 6.08 0 90)
+			(at 5.08 0 90)
 			(layer "F.SilkS")
 			(uuid "d927dd9a-ca90-401b-8d62-55c204195049")
 			(effects
@@ -805,6 +805,7 @@
 		(property "Value" "10k"
 			(at 3.08 0 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "6d51cf67-d104-4f69-b9b6-0ab8c2328bb4")
 			(effects
 				(font
@@ -1881,7 +1882,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "H1R3"
-			(at 6 0 90)
+			(at 5.08 0 90)
 			(layer "F.SilkS")
 			(uuid "d98d225f-5a89-468b-9dcf-77a3d5fccfea")
 			(effects
@@ -1894,6 +1895,7 @@
 		(property "Value" "10k"
 			(at 3 0 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "f4d20f94-6a00-4e0c-ac18-978960a724c4")
 			(effects
 				(font
@@ -2074,6 +2076,7 @@
 		(property "Value" "220n"
 			(at 0.5 5.5 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ec78683d-3a3d-4428-8070-faf37346c59a")
 			(effects
 				(font
@@ -3584,7 +3587,7 @@
 		(property "Reference" "H2C1"
 			(at -3.25 0.5 0)
 			(layer "F.SilkS")
-			(uuid "69fc88ff-ea46-441f-97bd-79831bef114b")
+			(uuid "c6554250-3094-418d-a2f3-026e890f685f")
 			(effects
 				(font
 					(size 1 1)
@@ -3595,7 +3598,7 @@
 		(property "Value" "10n"
 			(at 1.25 0 90)
 			(layer "F.SilkS")
-			(uuid "43340dad-9756-4ccd-8ae5-524f483d341e")
+			(uuid "a1650115-9b6d-4ff2-a666-cc97d21714f1")
 			(effects
 				(font
 					(size 1 1)
@@ -3607,7 +3610,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9d843076-9112-48b9-bc5e-928ed431a476")
+			(uuid "28a8fdca-c06e-401c-bfee-7b0588199be5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,7 +3621,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "23cf27f8-cce7-49b2-9062-9c51932ce180")
+			(uuid "f7471c88-011f-4317-a598-ddc1423b1155")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3771,7 +3774,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, diameter=4mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm diameter 4mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "H3C3"
-			(at 3.4726 3 180)
+			(at 3.7226 2.25 180)
 			(layer "F.SilkS")
 			(uuid "94469ad7-eb03-437e-86e4-f0df0238fd63")
 			(effects
@@ -3784,6 +3787,7 @@
 		(property "Value" "10µ"
 			(at -1.0274 4 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "d5a0bf94-169c-4ed7-a210-2c695deb489c")
 			(effects
 				(font
@@ -4905,6 +4909,7 @@
 		(property "Value" "220n"
 			(at 1.25 4.4 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "edca14da-051e-4d0b-9011-df1ca2b35a94")
 			(effects
 				(font
@@ -7066,7 +7071,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "H2R1"
-			(at -0.92 2.5 0)
+			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "28da072f-05c5-4438-b927-8db0de8c4535")
 			(effects
@@ -7079,6 +7084,7 @@
 		(property "Value" "2.2K"
 			(at 5.08 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "bea57c66-c7c9-4547-9c01-f1824a0d1536")
 			(effects
 				(font
@@ -7435,7 +7441,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "H3R2"
-			(at 6.08 0 90)
+			(at 5.08 0 90)
 			(layer "F.SilkS")
 			(uuid "b04fd642-751a-446b-8429-59834d2e95ae")
 			(effects
@@ -7448,6 +7454,7 @@
 		(property "Value" "47k"
 			(at 3.08 0 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "55147cd3-c313-4b4a-a1bf-7dc65ba42d78")
 			(effects
 				(font
@@ -8331,7 +8338,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, diameter=4mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm diameter 4mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "H2C4"
-			(at 1 -3.25 90)
+			(at 1 -2.75 90)
 			(layer "F.SilkS")
 			(uuid "8dc7dbb7-0f6c-4fd1-ac69-f204678333fa")
 			(effects
@@ -8344,6 +8351,7 @@
 		(property "Value" "10µ"
 			(at 1.4726 3 270)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1f04b3f0-b10a-435e-b73f-70d0ef6af311")
 			(effects
 				(font
@@ -9559,7 +9567,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "H1R2"
-			(at 6.08 0 90)
+			(at 5.08 0 90)
 			(layer "F.SilkS")
 			(uuid "5ed6e1e6-4edf-4212-a02b-59558f8a589d")
 			(effects
@@ -9572,6 +9580,7 @@
 		(property "Value" "47k"
 			(at 3.08 0 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b0440b6a-05cf-47d9-a062-4c542d56629c")
 			(effects
 				(font
@@ -14372,7 +14381,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "H1R1"
-			(at 6.58 2 0)
+			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "9c3cb689-e985-4357-8866-cb784653d046")
 			(effects
@@ -14385,6 +14394,7 @@
 		(property "Value" "2.2K"
 			(at 5.08 0 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "207b4100-fedf-45d2-83a5-539ef90ba1ce")
 			(effects
 				(font
@@ -18441,6 +18451,7 @@
 		(property "Value" "10µ"
 			(at 4 -0.5 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "74676996-a074-45eb-a382-897e34d41543")
 			(effects
 				(font
@@ -19562,6 +19573,7 @@
 		(property "Value" "10µ"
 			(at -2 0.5 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "063928bb-7f50-4b9d-af92-4f28a2bf8841")
 			(effects
 				(font
@@ -21385,7 +21397,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "H3C2"
-			(at 2 -5.5 180)
+			(at -1.5 4.75 180)
 			(layer "F.SilkS")
 			(uuid "1a39002f-50ef-466c-93ec-d208a9cec87e")
 			(effects
@@ -21398,6 +21410,7 @@
 		(property "Value" "220n"
 			(at -0.5 3 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1f7a679b-39c3-4bee-99fc-b48caf7a2a63")
 			(effects
 				(font
@@ -22917,7 +22930,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, diameter=4mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm diameter 4mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "H3C4"
-			(at 3.9726 -1 180)
+			(at 3.7226 1 180)
 			(layer "F.SilkS")
 			(uuid "1be1631a-ac75-4f27-b690-1723e088239f")
 			(effects
@@ -22930,6 +22943,7 @@
 		(property "Value" "10µ"
 			(at 3.4726 2.5 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0601ff8a-08fb-456a-ab9a-048d412bf234")
 			(effects
 				(font
@@ -24332,7 +24346,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.00mm, diameter=4mm, height=7mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.00mm diameter 4mm height 7mm Electrolytic Capacitor")
 		(property "Reference" "H2C3"
-			(at 4 0 180)
+			(at 1.25 -3 270)
 			(layer "F.SilkS")
 			(uuid "7b008cbe-ff5f-496c-9dfa-31b3fd3da734")
 			(effects
@@ -24345,6 +24359,7 @@
 		(property "Value" "10µ"
 			(at 1 3 270)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "9f97edd8-cb35-44a0-9c81-20dfe88caf6f")
 			(effects
 				(font
@@ -25453,7 +25468,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "H2R3"
-			(at 6.08 0 90)
+			(at 5.08 0 90)
 			(layer "F.SilkS")
 			(uuid "c1f1b3c5-fa79-4cf0-9b48-8c60626fd1b7")
 			(effects
@@ -25466,6 +25481,7 @@
 		(property "Value" "10k"
 			(at 3.08 0 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "b59ceec3-9aa3-4b51-a242-42d3bbd5cb2c")
 			(effects
 				(font
@@ -25633,7 +25649,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "H3R1"
-			(at 13.58 -0.5 0)
+			(at 5.08 0 0)
 			(layer "F.SilkS")
 			(uuid "e1c7bb9c-6609-4cfa-acd1-cc1605583262")
 			(effects
@@ -25646,6 +25662,7 @@
 		(property "Value" "2.2K"
 			(at 5.08 0 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "cccdbbdc-791e-4096-bd50-9ec42c6681d3")
 			(effects
 				(font
@@ -25813,7 +25830,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "H2R2"
-			(at 6.08 0 90)
+			(at 5.08 0 90)
 			(layer "F.SilkS")
 			(uuid "5a266b2f-5ca8-4ad2-aa7c-7f9f5fa5944c")
 			(effects
@@ -25826,6 +25843,7 @@
 		(property "Value" "47k"
 			(at 3.08 0 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "5a2ec2a5-2846-4378-bae7-8889902b6870")
 			(effects
 				(font
