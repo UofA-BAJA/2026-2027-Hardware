@@ -17561,6 +17561,17 @@
 			)
 		)
 	)
+	(gr_text "Arduino_Nano_v3.x"
+		(at 140.25 85 90)
+		(layer "F.SilkS")
+		(uuid "ee3fcb0a-3a3a-41f2-b3be-7b477669f1d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
 	(gr_text "Made By:\nCameron \nSchuetz"
 		(at 111.75 68 0)
 		(layer "F.SilkS")
