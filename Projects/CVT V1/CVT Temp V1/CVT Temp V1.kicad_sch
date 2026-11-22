@@ -1674,6 +1674,354 @@
 			)
 			(embedded_fonts no)
 		)
+<<<<<<< Updated upstream
+=======
+		(symbol "DTF13-6P:DTF13-6P"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -5.08 8.128 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "DTF13-6P"
+				(at -5.08 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "DTF13-6P:TE_DTF13-6P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Connector, 6-Way, Black, Polyamide, DT Series | TE Connectivity DTF13-6P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Comment" "DTF13-6P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MF" "TE Connectivity"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "22.35mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Price" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/DTF13-6P/TE+Connectivity+Deutsch+Connectors/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/DTF13-6P/TE+Connectivity+Deutsch+Connectors/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "DTF13-6P"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "EU_RoHS_Compliance" "Compliant with Exemptions"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "TE Connectivity"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "DTF13-6P_0_0"
+				(rectangle
+					(start -5.08 -10.16)
+					(end 5.08 7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -10.16 5.08 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 0 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -2.54 0)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -5.08 0)
+					(length 5.08)
+					(name "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -10.16 -7.62 0)
+					(length 5.08)
+					(name "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+>>>>>>> Stashed changes
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2799,6 +3147,7 @@
 			)
 			(embedded_fonts no)
 		)
+<<<<<<< Updated upstream
 		(symbol "MLX90614 Sensor:DTF13-6P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3005,6 +3354,8 @@
 			)
 			(embedded_fonts no)
 		)
+=======
+>>>>>>> Stashed changes
 		(symbol "Simulation_SPICE:0"
 			(power global)
 			(pin_numbers
@@ -3526,6 +3877,15 @@
 		(uuid "40329a1f-3edf-458e-b4b4-38a99d0fbc82")
 	)
 	(junction
+<<<<<<< Updated upstream
+=======
+		(at 69.85 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4d66e7c5-e510-4c5d-ae5b-27fadfa82078")
+	)
+	(junction
+>>>>>>> Stashed changes
 		(at 156.21 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3733,6 +4093,19 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
+=======
+			(xy 69.85 58.42) (xy 69.85 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f56b668-bf04-4da8-9c33-7b5c4fee9883")
+	)
+	(wire
+		(pts
+>>>>>>> Stashed changes
 			(xy 152.4 48.26) (xy 152.4 86.36)
 		)
 		(stroke
@@ -3783,6 +4156,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 212.09 52.07) (xy 236.22 52.07)
 		)
 		(stroke
@@ -3803,6 +4177,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> Stashed changes
 			(xy 97.79 86.36) (xy 106.68 86.36)
 		)
 		(stroke
@@ -3873,6 +4249,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 212.09 49.53) (xy 236.22 49.53)
 		)
 		(stroke
@@ -3883,6 +4260,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> Stashed changes
 			(xy 152.4 97.79) (xy 152.4 86.36)
 		)
 		(stroke
@@ -3903,6 +4282,19 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
+=======
+			(xy 68.58 167.64) (xy 68.58 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f929f2-28d5-4c6d-93d2-91f0a34f33fe")
+	)
+	(wire
+		(pts
+>>>>>>> Stashed changes
 			(xy 222.25 142.24) (xy 218.44 142.24)
 		)
 		(stroke
@@ -3933,7 +4325,11 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 69.85 54.61) (xy 69.85 59.69)
+=======
+			(xy 69.85 54.61) (xy 69.85 58.42)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -3963,6 +4359,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 212.09 39.37) (xy 236.22 39.37)
 		)
 		(stroke
@@ -3973,6 +4370,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> Stashed changes
 			(xy 156.21 142.24) (xy 158.75 142.24)
 		)
 		(stroke
@@ -4023,6 +4422,29 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
+=======
+			(xy 259.08 116.84) (xy 259.08 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8e26f433-19dc-462f-8ea9-e1db375690e2")
+	)
+	(wire
+		(pts
+			(xy 259.08 102.87) (xy 270.51 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95239c84-2002-4c79-8334-31caa2c7a7be")
+	)
+	(wire
+		(pts
+>>>>>>> Stashed changes
 			(xy 158.75 73.66) (xy 158.75 78.74)
 		)
 		(stroke
@@ -4053,6 +4475,29 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
+=======
+			(xy 270.51 119.38) (xy 270.51 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a755d697-5487-4db5-8a9e-25e841fa4d51")
+	)
+	(wire
+		(pts
+			(xy 259.08 119.38) (xy 270.51 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abc7e9df-3f4a-461a-b347-63c39363ce90")
+	)
+	(wire
+		(pts
+>>>>>>> Stashed changes
 			(xy 218.44 119.38) (xy 232.41 119.38)
 		)
 		(stroke
@@ -4143,6 +4588,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 212.09 46.99) (xy 236.22 46.99)
 		)
 		(stroke
@@ -4153,6 +4599,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> Stashed changes
 			(xy 274.32 133.35) (xy 274.32 128.27)
 		)
 		(stroke
@@ -4163,6 +4611,7 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 212.09 44.45) (xy 236.22 44.45)
 		)
 		(stroke
@@ -4173,6 +4622,8 @@
 	)
 	(wire
 		(pts
+=======
+>>>>>>> Stashed changes
 			(xy 222.25 153.67) (xy 222.25 144.78)
 		)
 		(stroke
@@ -4203,6 +4654,19 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
+=======
+			(xy 63.5 167.64) (xy 68.58 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc44485c-a42f-40ae-8bab-a61bff542d95")
+	)
+	(wire
+		(pts
+>>>>>>> Stashed changes
 			(xy 158.75 78.74) (xy 158.75 80.01)
 		)
 		(stroke
@@ -4223,6 +4687,19 @@
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
+=======
+			(xy 63.5 163.83) (xy 63.5 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e596cd6b-6b10-41b6-a4c9-8e665ac25d75")
+	)
+	(wire
+		(pts
+>>>>>>> Stashed changes
 			(xy 176.53 144.78) (xy 176.53 153.67)
 		)
 		(stroke
@@ -4281,6 +4758,7 @@
 		)
 		(uuid "ffb2aa9e-9805-4bf6-974e-6dfd8b28cddc")
 	)
+<<<<<<< Updated upstream
 	(global_label "Low"
 		(shape input)
 		(at 236.22 41.91 0)
@@ -4305,6 +4783,8 @@
 			)
 		)
 	)
+=======
+>>>>>>> Stashed changes
 	(global_label "SI"
 		(shape input)
 		(at 54.61 97.79 180)
@@ -4329,19 +4809,33 @@
 			)
 		)
 	)
+<<<<<<< Updated upstream
 	(global_label "+5V"
 		(shape input)
 		(at 236.22 52.07 0)
+=======
+	(global_label "High"
+		(shape input)
+		(at 196.85 69.85 180)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+<<<<<<< Updated upstream
 			(justify left)
 		)
 		(uuid "1a29a3ae-24b2-44f3-b379-591eb83bd628")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 243.0757 52.07 0)
+=======
+			(justify right)
+		)
+		(uuid "28a3b0a5-75ac-4fc3-b47b-4f669442ed10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.6315 69.85 0)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4349,7 +4843,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 				(justify left)
+=======
+				(justify right)
+>>>>>>> Stashed changes
 			)
 		)
 	)
@@ -4401,6 +4899,7 @@
 			)
 		)
 	)
+<<<<<<< Updated upstream
 	(global_label "GND"
 		(shape input)
 		(at 236.22 39.37 0)
@@ -4449,6 +4948,8 @@
 			)
 		)
 	)
+=======
+>>>>>>> Stashed changes
 	(global_label "+5V"
 		(shape input)
 		(at 237.49 151.13 0)
@@ -4497,6 +4998,57 @@
 			)
 		)
 	)
+<<<<<<< Updated upstream
+=======
+	(global_label "+5V"
+		(shape input)
+		(at 196.85 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6354b7cd-e9eb-4a1e-9f72-89c19236b716")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.9943 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 63.5 167.64 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68309dab-f679-45e0-b83c-8e3cfb408491")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 63.5 174.4957 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+>>>>>>> Stashed changes
 	(global_label "SO"
 		(shape input)
 		(at 54.61 100.33 180)
@@ -4523,17 +5075,29 @@
 	)
 	(global_label "High"
 		(shape input)
+<<<<<<< Updated upstream
 		(at 236.22 46.99 0)
+=======
+		(at 196.85 72.39 180)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+<<<<<<< Updated upstream
 			(justify left)
 		)
 		(uuid "93e3e7b8-d92e-41d9-9c94-fe90fbc8b6e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 243.4385 46.99 0)
+=======
+			(justify right)
+		)
+		(uuid "85ef8e7c-badd-40d4-b273-611744989866")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.6315 72.39 0)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4541,7 +5105,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 				(justify left)
+=======
+				(justify right)
+>>>>>>> Stashed changes
 			)
 		)
 	)
@@ -4571,17 +5139,29 @@
 	)
 	(global_label "Low"
 		(shape input)
+<<<<<<< Updated upstream
 		(at 236.22 44.45 0)
+=======
+		(at 196.85 67.31 180)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+<<<<<<< Updated upstream
 			(justify left)
 		)
 		(uuid "b2c11b62-4eb6-42f0-813f-901c439b6522")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 242.7128 44.45 0)
+=======
+			(justify right)
+		)
+		(uuid "9ef65b94-21eb-477f-8f48-59b7edfa5ff5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.3572 67.31 0)
+>>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4589,7 +5169,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+<<<<<<< Updated upstream
 				(justify left)
+=======
+				(justify right)
+>>>>>>> Stashed changes
 			)
 		)
 	)
@@ -4785,6 +5369,81 @@
 			)
 		)
 	)
+<<<<<<< Updated upstream
+=======
+	(global_label "GND"
+		(shape input)
+		(at 196.85 62.23 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ea4b98ec-0dce-497b-8483-9c8ce82a1f2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 189.9943 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 69.85 110.49 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1837bb0-4f15-409d-8bef-c8fbc5ec69b4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 69.85 117.3457 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "Low"
+		(shape input)
+		(at 196.85 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f3f89be7-599a-4496-87c6-f63f9185c8f3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 190.3572 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+>>>>>>> Stashed changes
 	(symbol
 		(lib_id "CAN Integration-altium-import:root_0_MCP2515_adafruit.SCHLIB")
 		(at 185.42 111.76 0)
@@ -5347,6 +6006,7 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
 		(lib_id "MLX90614 Sensor:DTF13-6P")
 		(at 208.28 40.64 0)
 		(unit 1)
@@ -5440,6 +6100,8 @@
 		)
 	)
 	(symbol
+=======
+>>>>>>> Stashed changes
 		(lib_id "CAN Integration-altium-import:root_0_TJA1050DRG_adafruit.SCHLIB")
 		(at 237.49 114.3 0)
 		(unit 0)
@@ -5959,6 +6621,91 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
+=======
+		(lib_id "Device:R")
+		(at 270.51 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d3fddde-daf5-4752-ad34-6f31e8fd74bf")
+		(property "Reference" "R4"
+			(at 273.05 105.4099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 273.05 107.9499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
+			(at 268.732 106.68 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 270.51 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1014d23d-5d46-4467-a660-d0f16a62100f")
+		)
+		(pin "2"
+			(uuid "12ae8264-59c0-4862-a5b0-ef79d79e3635")
+		)
+		(instances
+			(project "CVT Temp V1"
+				(path "/82a5fa46-4b3b-4bd8-92fc-9d1455f00681"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+>>>>>>> Stashed changes
 		(lib_id "CAN Integration-altium-import:VCC_BAR")
 		(at 274.32 115.57 180)
 		(unit 1)
@@ -6140,7 +6887,11 @@
 				(justify left)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Footprint" ""
+=======
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
+>>>>>>> Stashed changes
 			(at 156.972 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -6268,6 +7019,88 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
+<<<<<<< Updated upstream
+=======
+		(at 68.58 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6ac2a051-64c0-457e-9739-d5ef939e80d0")
+		(property "Reference" "#GND019"
+			(at 68.58 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 68.58 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#subsec_Circuit_elements__device"
+			(at 68.58 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0V reference potential for simulation"
+			(at 68.58 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8aa6a3e0-0f56-455a-ad2e-8406ad0b8d19")
+		)
+		(instances
+			(project "CVT Temp V1"
+				(path "/82a5fa46-4b3b-4bd8-92fc-9d1455f00681"
+					(reference "#GND019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:0")
+>>>>>>> Stashed changes
 		(at 222.25 153.67 0)
 		(unit 1)
 		(body_style 1)
@@ -6848,6 +7681,87 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
+=======
+		(lib_id "power:GND")
+		(at 63.5 163.83 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d3187fa-73e0-4aae-816b-d90f847221db")
+		(property "Reference" "#PWR05"
+			(at 63.5 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 63.5 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 63.5 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6c58b77-2557-4113-a102-756abd0cceeb")
+		)
+		(instances
+			(project "CVT Temp V1"
+				(path "/82a5fa46-4b3b-4bd8-92fc-9d1455f00681"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+>>>>>>> Stashed changes
 		(lib_id "CAN Integration-altium-import:VCC_BAR")
 		(at 147.32 120.65 180)
 		(unit 1)
@@ -7692,7 +8606,11 @@
 				(justify right)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Footprint" ""
+=======
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
+>>>>>>> Stashed changes
 			(at 99.568 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -7741,6 +8659,87 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
+=======
+		(lib_id "power:+3.3V")
+		(at 69.85 58.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5d75da1-6d85-4818-b372-c1ac6bad6e91")
+		(property "Reference" "#PWR06"
+			(at 69.85 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 69.85 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 69.85 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 69.85 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "584d397e-6071-4fa2-98f9-81b4a82e0666")
+		)
+		(instances
+			(project "CVT Temp V1"
+				(path "/82a5fa46-4b3b-4bd8-92fc-9d1455f00681"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+>>>>>>> Stashed changes
 		(lib_name "CVT_Sensor_1")
 		(lib_id "MLX90614 Sensor:CVT_Sensor")
 		(at 129.54 49.53 0)
@@ -7773,7 +8772,11 @@
 				)
 			)
 		)
+<<<<<<< Updated upstream
 		(property "Footprint" ""
+=======
+		(property "Footprint" "CVTSensor:CVT Sensor"
+>>>>>>> Stashed changes
 			(at 129.54 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8426,6 +9429,261 @@
 		)
 	)
 	(symbol
+<<<<<<< Updated upstream
+=======
+		(lib_id "DTF13-6P:DTF13-6P")
+		(at 207.01 67.31 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4d086f5-9ba4-4a98-9525-d2b70396c932")
+		(property "Reference" "J2"
+			(at 213.36 67.3099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DTF13-6P"
+			(at 213.36 69.8499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "DTF13-6P:TE_DTF13-6P"
+			(at 207.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Connector, 6-Way, Black, Polyamide, DT Series | TE Connectivity DTF13-6P"
+			(at 207.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Comment" "DTF13-6P"
+			(at 207.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "TE Connectivity"
+			(at 207.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "22.35mm"
+			(at 207.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 207.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 207.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/DTF13-6P/TE+Connectivity+Deutsch+Connectors/view-part/?ref=eda"
+			(at 207.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 207.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 207.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/DTF13-6P/TE+Connectivity+Deutsch+Connectors/view-part/?ref=snap"
+			(at 207.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "DTF13-6P"
+			(at 207.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "EU_RoHS_Compliance" "Compliant with Exemptions"
+			(at 207.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 207.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "TE Connectivity"
+			(at 207.01 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "6"
+			(uuid "4253967d-e29e-461b-b5f1-22ce09ad164b")
+		)
+		(pin "2"
+			(uuid "040d4d7f-0711-4e4b-a5a2-6dca424f6830")
+		)
+		(pin "4"
+			(uuid "25f55050-b51e-486b-8be6-8290896bdadb")
+		)
+		(pin "1"
+			(uuid "8955e322-3e90-4808-8aa6-d8846e58f682")
+		)
+		(pin "3"
+			(uuid "73fd2934-27fa-42bf-8735-52715291db83")
+		)
+		(pin "5"
+			(uuid "e6c360d2-59ca-4257-943d-5648a8612a67")
+		)
+		(instances
+			(project "CVT Temp V1"
+				(path "/82a5fa46-4b3b-4bd8-92fc-9d1455f00681"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+>>>>>>> Stashed changes
 		(lib_id "Simulation_SPICE:0")
 		(at 264.16 127 90)
 		(unit 1)
