@@ -6,7 +6,11 @@
 	(property "Reference" "REF**"
 		(at 0 -6.045 0)
 		(layer "F.SilkS")
+<<<<<<< Updated upstream
 		(uuid "7e724cb1-2df1-49bc-9305-c1a614c20340")
+=======
+		(uuid "0e5cab2a-ae8e-49ed-9f18-f09a1d1b3dd3")
+>>>>>>> Stashed changes
 		(effects
 			(font
 				(size 1 1)
@@ -17,7 +21,11 @@
 	(property "Value" "CVT Sensor"
 		(at 0 6.045 0)
 		(layer "F.Fab")
+<<<<<<< Updated upstream
 		(uuid "6d909b77-7db3-439d-98ff-828b3a5db69c")
+=======
+		(uuid "b805e3a7-1957-4a44-b501-024b17285b9e")
+>>>>>>> Stashed changes
 		(effects
 			(font
 				(size 1 1)
@@ -29,7 +37,11 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
+<<<<<<< Updated upstream
 		(uuid "34244507-4db8-4b2a-b311-83c639721380")
+=======
+		(uuid "6f629a43-1018-4b2a-8a21-38d08f9f72ee")
+>>>>>>> Stashed changes
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -40,7 +52,11 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
+<<<<<<< Updated upstream
 		(uuid "d135453c-df19-4b69-85b5-b2fd5935fc5a")
+=======
+		(uuid "260d3ce1-7fe8-4be8-b838-bd1547da88aa")
+>>>>>>> Stashed changes
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,7 +73,11 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
+<<<<<<< Updated upstream
 		(uuid "ba8535c0-d994-454f-a034-5ca1a47f4403")
+=======
+		(uuid "8d2f368d-5df8-4129-b544-1cf8e87b5e06")
+>>>>>>> Stashed changes
 	)
 	(fp_circle
 		(center 0 0)
@@ -68,7 +88,11 @@
 		)
 		(fill no)
 		(layer "F.CrtYd")
+<<<<<<< Updated upstream
 		(uuid "c0e1304c-20ec-44bb-8f06-774eb26b2b76")
+=======
+		(uuid "b665632b-0aaa-4e4e-bfb7-4fa08a63aea2")
+>>>>>>> Stashed changes
 	)
 	(fp_circle
 		(center 0 0)
@@ -79,12 +103,20 @@
 		)
 		(fill no)
 		(layer "F.Fab")
+<<<<<<< Updated upstream
 		(uuid "378f46fc-4a25-4dda-80de-0da3af09a899")
+=======
+		(uuid "890225f4-d305-4369-8ae6-de7c3b21313a")
+>>>>>>> Stashed changes
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
+<<<<<<< Updated upstream
 		(uuid "0c3321a2-e5a6-49d0-9c59-3cbbe9c0f148")
+=======
+		(uuid "9029e6b9-7693-4591-b198-d0b25a11ed38")
+>>>>>>> Stashed changes
 		(effects
 			(font
 				(size 1 1)
@@ -98,7 +130,11 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
+<<<<<<< Updated upstream
 		(uuid "9e382201-4194-4b0a-b5cf-fb6bdf1d1a79")
+=======
+		(uuid "b42eecf1-9e82-4339-9d5e-bc60149e3fc2")
+>>>>>>> Stashed changes
 	)
 	(pad "2" thru_hole oval
 		(at 3 0)
@@ -107,7 +143,11 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
+<<<<<<< Updated upstream
 		(uuid "4c5e829f-53a9-4875-b9a6-065bf9094374")
+=======
+		(uuid "d1269cbf-875b-4b7a-9058-0c9cfd9adde1")
+>>>>>>> Stashed changes
 	)
 	(pad "3" thru_hole oval
 		(at 0 3)
@@ -116,7 +156,11 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
+<<<<<<< Updated upstream
 		(uuid "748fd44f-2cdf-428c-ba21-3a4601c78c24")
+=======
+		(uuid "1c8f8f1a-fb0c-4bac-8d68-0049d1e00304")
+>>>>>>> Stashed changes
 	)
 	(pad "4" thru_hole oval
 		(at -3 0)
@@ -125,7 +169,11 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(thermal_bridge_angle 45)
+<<<<<<< Updated upstream
 		(uuid "3c7f49bc-0441-4670-aae2-850d7b55390b")
+=======
+		(uuid "62ce4085-e0c6-440e-af68-d50fbcec22b6")
+>>>>>>> Stashed changes
 	)
 	(embedded_fonts no)
 )

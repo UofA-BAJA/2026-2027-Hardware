@@ -1,5 +1,8 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "CVTSensor") (type "KiCad") (uri "${KIPRJMOD}/CVTSensor.pretty") (options "") (descr ""))
+<<<<<<< Updated upstream
 	(lib (name "CVTSensor2") (type "KiCad") (uri "${KIPRJMOD}/CVTSensor.pretty") (options "") (descr ""))
+=======
+>>>>>>> Stashed changes
 )
