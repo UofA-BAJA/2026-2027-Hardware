@@ -1674,8 +1674,6 @@
 			)
 			(embedded_fonts no)
 		)
-<<<<<<< Updated upstream
-=======
 		(symbol "DTF13-6P:DTF13-6P"
 			(pin_names
 				(offset 1.016)
@@ -2021,7 +2019,6 @@
 			)
 			(embedded_fonts no)
 		)
->>>>>>> Stashed changes
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -3147,215 +3144,6 @@
 			)
 			(embedded_fonts no)
 		)
-<<<<<<< Updated upstream
-		(symbol "MLX90614 Sensor:DTF13-6P"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "DTF13-6P_0_1"
-				(rectangle
-					(start -2.54 2.54)
-					(end 3.81 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 2.54)
-					(end 3.81 -13.97)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 3.81 -13.97)
-					(end -6.35 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "DTF13-6P_1_1"
-				(pin power_in line
-					(at 3.81 1.27 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 -1.27 0)
-					(length 2.54)
-					(name "CAN_LI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 3.81 -3.81 0)
-					(length 2.54)
-					(name "CAN_LO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 3.81 -6.35 0)
-					(length 2.54)
-					(name "CAN_HO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 3.81 -8.89 0)
-					(length 2.54)
-					(name "CAN_HI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 3.81 -11.43 0)
-					(length 2.54)
-					(name "5V"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-=======
->>>>>>> Stashed changes
 		(symbol "Simulation_SPICE:0"
 			(power global)
 			(pin_numbers
@@ -3877,15 +3665,12 @@
 		(uuid "40329a1f-3edf-458e-b4b4-38a99d0fbc82")
 	)
 	(junction
-<<<<<<< Updated upstream
-=======
 		(at 69.85 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d66e7c5-e510-4c5d-ae5b-27fadfa82078")
 	)
 	(junction
->>>>>>> Stashed changes
 		(at 156.21 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4093,8 +3878,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-=======
 			(xy 69.85 58.42) (xy 69.85 59.69)
 		)
 		(stroke
@@ -4105,7 +3888,6 @@
 	)
 	(wire
 		(pts
->>>>>>> Stashed changes
 			(xy 152.4 48.26) (xy 152.4 86.36)
 		)
 		(stroke
@@ -4156,29 +3938,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 212.09 52.07) (xy 236.22 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b2be94a-2659-4928-bcfe-41b5430237f8")
-	)
-	(wire
-		(pts
-			(xy 212.09 41.91) (xy 236.22 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cc52b1a-2155-4f3c-a236-a51701126250")
-	)
-	(wire
-		(pts
-=======
->>>>>>> Stashed changes
 			(xy 97.79 86.36) (xy 106.68 86.36)
 		)
 		(stroke
@@ -4249,19 +4008,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 212.09 49.53) (xy 236.22 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5180aaef-4d0c-4c09-af27-8b9b3d868795")
-	)
-	(wire
-		(pts
-=======
->>>>>>> Stashed changes
 			(xy 152.4 97.79) (xy 152.4 86.36)
 		)
 		(stroke
@@ -4282,8 +4028,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-=======
 			(xy 68.58 167.64) (xy 68.58 161.29)
 		)
 		(stroke
@@ -4294,7 +4038,6 @@
 	)
 	(wire
 		(pts
->>>>>>> Stashed changes
 			(xy 222.25 142.24) (xy 218.44 142.24)
 		)
 		(stroke
@@ -4325,11 +4068,7 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 69.85 54.61) (xy 69.85 59.69)
-=======
 			(xy 69.85 54.61) (xy 69.85 58.42)
->>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
@@ -4359,19 +4098,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 212.09 39.37) (xy 236.22 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61d14a2d-5f07-43dd-b754-909ae2c91d91")
-	)
-	(wire
-		(pts
-=======
->>>>>>> Stashed changes
 			(xy 156.21 142.24) (xy 158.75 142.24)
 		)
 		(stroke
@@ -4422,8 +4148,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-=======
 			(xy 259.08 116.84) (xy 259.08 102.87)
 		)
 		(stroke
@@ -4444,7 +4168,6 @@
 	)
 	(wire
 		(pts
->>>>>>> Stashed changes
 			(xy 158.75 73.66) (xy 158.75 78.74)
 		)
 		(stroke
@@ -4475,8 +4198,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-=======
 			(xy 270.51 119.38) (xy 270.51 110.49)
 		)
 		(stroke
@@ -4497,7 +4218,6 @@
 	)
 	(wire
 		(pts
->>>>>>> Stashed changes
 			(xy 218.44 119.38) (xy 232.41 119.38)
 		)
 		(stroke
@@ -4588,19 +4308,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 212.09 46.99) (xy 236.22 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c921b0c8-832f-4e31-a258-24c9d3c06df7")
-	)
-	(wire
-		(pts
-=======
->>>>>>> Stashed changes
 			(xy 274.32 133.35) (xy 274.32 128.27)
 		)
 		(stroke
@@ -4611,19 +4318,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-			(xy 212.09 44.45) (xy 236.22 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "caead308-7be6-4037-86ca-54508f44bf15")
-	)
-	(wire
-		(pts
-=======
->>>>>>> Stashed changes
 			(xy 222.25 153.67) (xy 222.25 144.78)
 		)
 		(stroke
@@ -4654,8 +4348,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-=======
 			(xy 63.5 167.64) (xy 68.58 167.64)
 		)
 		(stroke
@@ -4666,7 +4358,6 @@
 	)
 	(wire
 		(pts
->>>>>>> Stashed changes
 			(xy 158.75 78.74) (xy 158.75 80.01)
 		)
 		(stroke
@@ -4687,8 +4378,6 @@
 	)
 	(wire
 		(pts
-<<<<<<< Updated upstream
-=======
 			(xy 63.5 163.83) (xy 63.5 167.64)
 		)
 		(stroke
@@ -4699,7 +4388,6 @@
 	)
 	(wire
 		(pts
->>>>>>> Stashed changes
 			(xy 176.53 144.78) (xy 176.53 153.67)
 		)
 		(stroke
@@ -4758,33 +4446,6 @@
 		)
 		(uuid "ffb2aa9e-9805-4bf6-974e-6dfd8b28cddc")
 	)
-<<<<<<< Updated upstream
-	(global_label "Low"
-		(shape input)
-		(at 236.22 41.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0b541b82-0e04-4c73-8596-53abdff62e02")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.7128 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-=======
->>>>>>> Stashed changes
 	(global_label "SI"
 		(shape input)
 		(at 54.61 97.79 180)
@@ -4809,33 +4470,19 @@
 			)
 		)
 	)
-<<<<<<< Updated upstream
-	(global_label "+5V"
-		(shape input)
-		(at 236.22 52.07 0)
-=======
 	(global_label "High"
 		(shape input)
 		(at 196.85 69.85 180)
->>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-<<<<<<< Updated upstream
-			(justify left)
-		)
-		(uuid "1a29a3ae-24b2-44f3-b379-591eb83bd628")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.0757 52.07 0)
-=======
 			(justify right)
 		)
 		(uuid "28a3b0a5-75ac-4fc3-b47b-4f669442ed10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 189.6315 69.85 0)
->>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4843,11 +4490,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-<<<<<<< Updated upstream
-				(justify left)
-=======
 				(justify right)
->>>>>>> Stashed changes
 			)
 		)
 	)
@@ -4899,57 +4542,6 @@
 			)
 		)
 	)
-<<<<<<< Updated upstream
-	(global_label "GND"
-		(shape input)
-		(at 236.22 39.37 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "43dca131-9e4e-4225-a852-b6d050737059")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.0757 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "High"
-		(shape input)
-		(at 236.22 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "452c887b-0d69-47eb-be8b-55a2630fdb0b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.4385 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-=======
->>>>>>> Stashed changes
 	(global_label "+5V"
 		(shape input)
 		(at 237.49 151.13 0)
@@ -4998,8 +4590,6 @@
 			)
 		)
 	)
-<<<<<<< Updated upstream
-=======
 	(global_label "+5V"
 		(shape input)
 		(at 196.85 74.93 180)
@@ -5048,7 +4638,6 @@
 			)
 		)
 	)
->>>>>>> Stashed changes
 	(global_label "SO"
 		(shape input)
 		(at 54.61 100.33 180)
@@ -5075,29 +4664,17 @@
 	)
 	(global_label "High"
 		(shape input)
-<<<<<<< Updated upstream
-		(at 236.22 46.99 0)
-=======
 		(at 196.85 72.39 180)
->>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-<<<<<<< Updated upstream
-			(justify left)
-		)
-		(uuid "93e3e7b8-d92e-41d9-9c94-fe90fbc8b6e8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 243.4385 46.99 0)
-=======
 			(justify right)
 		)
 		(uuid "85ef8e7c-badd-40d4-b273-611744989866")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 189.6315 72.39 0)
->>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5105,11 +4682,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-<<<<<<< Updated upstream
-				(justify left)
-=======
 				(justify right)
->>>>>>> Stashed changes
 			)
 		)
 	)
@@ -5139,29 +4712,17 @@
 	)
 	(global_label "Low"
 		(shape input)
-<<<<<<< Updated upstream
-		(at 236.22 44.45 0)
-=======
 		(at 196.85 67.31 180)
->>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-<<<<<<< Updated upstream
-			(justify left)
-		)
-		(uuid "b2c11b62-4eb6-42f0-813f-901c439b6522")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.7128 44.45 0)
-=======
 			(justify right)
 		)
 		(uuid "9ef65b94-21eb-477f-8f48-59b7edfa5ff5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 190.3572 67.31 0)
->>>>>>> Stashed changes
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5169,11 +4730,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-<<<<<<< Updated upstream
-				(justify left)
-=======
 				(justify right)
->>>>>>> Stashed changes
 			)
 		)
 	)
@@ -5369,8 +4926,6 @@
 			)
 		)
 	)
-<<<<<<< Updated upstream
-=======
 	(global_label "GND"
 		(shape input)
 		(at 196.85 62.23 180)
@@ -5443,7 +4998,6 @@
 			)
 		)
 	)
->>>>>>> Stashed changes
 	(symbol
 		(lib_id "CAN Integration-altium-import:root_0_MCP2515_adafruit.SCHLIB")
 		(at 185.42 111.76 0)
@@ -6006,102 +5560,6 @@
 		)
 	)
 	(symbol
-<<<<<<< Updated upstream
-		(lib_id "MLX90614 Sensor:DTF13-6P")
-		(at 208.28 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "161e774f-32e2-4e8e-b208-02bfc96d6d16")
-		(property "Reference" "J1"
-			(at 215.9 46.3549 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" ""
-			(at 208.28 40.64 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 208.28 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 208.28 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "5"
-			(uuid "ed5785d4-fb15-401c-ab73-9e67e116a48f")
-		)
-		(pin "2"
-			(uuid "ab11627d-863f-44d5-a792-a8f6473a9d9c")
-		)
-		(pin "4"
-			(uuid "80ff9f58-622d-413d-be23-66c2711e7575")
-		)
-		(pin "3"
-			(uuid "58c7571d-872e-449c-ac00-62a51731efae")
-		)
-		(pin "1"
-			(uuid "dbf229e2-63d4-4b5b-8358-f49cb154915b")
-		)
-		(pin "6"
-			(uuid "1c3e061c-1096-406c-871a-52b14b63c42e")
-		)
-		(instances
-			(project "CVT Temp V1"
-				(path "/82a5fa46-4b3b-4bd8-92fc-9d1455f00681"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-=======
->>>>>>> Stashed changes
 		(lib_id "CAN Integration-altium-import:root_0_TJA1050DRG_adafruit.SCHLIB")
 		(at 237.49 114.3 0)
 		(unit 0)
@@ -6621,8 +6079,6 @@
 		)
 	)
 	(symbol
-<<<<<<< Updated upstream
-=======
 		(lib_id "Device:R")
 		(at 270.51 106.68 0)
 		(unit 1)
@@ -6656,7 +6112,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 268.732 106.68 90)
 			(hide yes)
 			(show_name no)
@@ -6705,7 +6161,6 @@
 		)
 	)
 	(symbol
->>>>>>> Stashed changes
 		(lib_id "CAN Integration-altium-import:VCC_BAR")
 		(at 274.32 115.57 180)
 		(unit 1)
@@ -6887,11 +6342,7 @@
 				(justify left)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Footprint" ""
-=======
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
->>>>>>> Stashed changes
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 156.972 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -7019,8 +6470,6 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
-<<<<<<< Updated upstream
-=======
 		(at 68.58 161.29 0)
 		(unit 1)
 		(body_style 1)
@@ -7100,7 +6549,6 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:0")
->>>>>>> Stashed changes
 		(at 222.25 153.67 0)
 		(unit 1)
 		(body_style 1)
@@ -7681,8 +7129,6 @@
 		)
 	)
 	(symbol
-<<<<<<< Updated upstream
-=======
 		(lib_id "power:GND")
 		(at 63.5 163.83 180)
 		(unit 1)
@@ -7761,7 +7207,6 @@
 		)
 	)
 	(symbol
->>>>>>> Stashed changes
 		(lib_id "CAN Integration-altium-import:VCC_BAR")
 		(at 147.32 120.65 180)
 		(unit 1)
@@ -8606,11 +8051,7 @@
 				(justify right)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Footprint" ""
-=======
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
->>>>>>> Stashed changes
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 99.568 82.55 90)
 			(hide yes)
 			(show_name no)
@@ -8659,8 +8100,6 @@
 		)
 	)
 	(symbol
-<<<<<<< Updated upstream
-=======
 		(lib_id "power:+3.3V")
 		(at 69.85 58.42 0)
 		(unit 1)
@@ -8739,7 +8178,6 @@
 		)
 	)
 	(symbol
->>>>>>> Stashed changes
 		(lib_name "CVT_Sensor_1")
 		(lib_id "MLX90614 Sensor:CVT_Sensor")
 		(at 129.54 49.53 0)
@@ -8772,11 +8210,7 @@
 				)
 			)
 		)
-<<<<<<< Updated upstream
-		(property "Footprint" ""
-=======
 		(property "Footprint" "CVTSensor:CVT Sensor"
->>>>>>> Stashed changes
 			(at 129.54 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8862,7 +8296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 171.704 128.524 90)
 			(hide yes)
 			(show_name no)
@@ -9429,8 +8863,6 @@
 		)
 	)
 	(symbol
-<<<<<<< Updated upstream
-=======
 		(lib_id "DTF13-6P:DTF13-6P")
 		(at 207.01 67.31 0)
 		(unit 1)
@@ -9683,7 +9115,6 @@
 		)
 	)
 	(symbol
->>>>>>> Stashed changes
 		(lib_id "Simulation_SPICE:0")
 		(at 264.16 127 90)
 		(unit 1)

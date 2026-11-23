@@ -1,8 +1,6 @@
 {
   "board": {
     "3dviewports": [],
-<<<<<<< Updated upstream
-=======
     "design_settings": {
       "defaults": {
         "apply_defaults_to_fp_barcodes": false,
@@ -235,7 +233,6 @@
       "via_dimensions": [],
       "zones_allow_external_fillets": false
     },
->>>>>>> Stashed changes
     "ipc2581": {
       "bom_rev": "",
       "dist": "",
@@ -660,21 +657,17 @@
     "top_level_sheets": [
       {
         "filename": "CVT Temp V1.kicad_sch",
-        "name": "Root",
+        "name": "CVT Temp V1",
         "uuid": "82a5fa46-4b3b-4bd8-92fc-9d1455f00681"
       }
     ],
-<<<<<<< Updated upstream
-    "used_designators": "J1,R1-3,#GND1,#GND13,#GND15-18,#PWR1-4,#PWR101-103,#PWR108,#PWR112,#PWR115,C1-6,U1-4,X1,A1",
-=======
-    "used_designators": "J1-2,R1-4,#GND1,#GND13,#GND15-19,#PWR1-6,#PWR101-103,#PWR108,#PWR112,#PWR115,C1-6,U1-4,X1,A1",
->>>>>>> Stashed changes
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
     [
       "82a5fa46-4b3b-4bd8-92fc-9d1455f00681",
-      "Root"
+      "CVT Temp V1"
     ]
   ],
   "text_variables": {},
